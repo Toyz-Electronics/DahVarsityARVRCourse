@@ -1,0 +1,921 @@
+fileFormatVersion: 2
+guid: 50f48953239fb4a45a6f17a0568b8d73
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -6855851679507306618
+    second: Body|BezierCircle.001Action
+  - first:
+      74: -2410208288031360513
+    second: Body|BezierCircle.002Action
+  - first:
+      74: 5900306041271913016
+    second: Body|BezierCircle.003Action
+  - first:
+      74: -1221052682709868603
+    second: Body|BezierCircle.004Action.001
+  - first:
+      74: 9066451975803504376
+    second: Body|BezierCircle.005Action
+  - first:
+      74: 2308650340529413545
+    second: Body|BezierCircle.006Action
+  - first:
+      74: -2931520570477662606
+    second: Body|BezierCircle.008Action
+  - first:
+      74: 563824422047362594
+    second: Body|BezierCircleAction
+  - first:
+      74: 2399300532808103
+    second: Body|BodyAction.001
+  - first:
+      74: -811162605246456539
+    second: Body|Character ControllerAction
+  - first:
+      74: 7316752839924605573
+    second: Body|Directional ControllerAction
+  - first:
+      74: -3400035581922692551
+    second: IK Target|BezierCircle.001Action
+  - first:
+      74: 7144250805450122452
+    second: IK Target|BezierCircle.002Action
+  - first:
+      74: -3008486426507046505
+    second: IK Target|BezierCircle.003Action
+  - first:
+      74: 8007382914449521932
+    second: IK Target|BezierCircle.004Action.001
+  - first:
+      74: 1252008865193890252
+    second: IK Target|BezierCircle.005Action
+  - first:
+      74: -2225242555196723655
+    second: IK Target|BezierCircle.006Action
+  - first:
+      74: 198289740291282263
+    second: IK Target|BezierCircle.008Action
+  - first:
+      74: -4314610459692003914
+    second: IK Target|BezierCircleAction
+  - first:
+      74: 4873378137956601332
+    second: IK Target|BodyAction.001
+  - first:
+      74: -1015440818329419744
+    second: IK Target|Character ControllerAction
+  - first:
+      74: -912060138159317575
+    second: IK Target|Directional ControllerAction
+  - first:
+      74: 6390681798326889263
+    second: IK Target|IK TargetAction
+  - first:
+      74: -5195145049585288273
+    second: IK Target|IK TargetAction.003
+  - first:
+      74: -7393367627772902659
+    second: IK Target|IK TargetAction.005
+  - first:
+      74: -4021352426069346851
+    second: IK Target|IK TargetAction.007
+  - first:
+      74: -6926592582711260612
+    second: IK Target|IK TargetAction.009
+  - first:
+      74: 2421952011528142297
+    second: IK Target|IK TargetAction.011
+  - first:
+      74: -2850250635792651282
+    second: IK Target|IK TargetAction.013
+  - first:
+      74: -5257159179933026281
+    second: IK Target|IK TargetAction.016
+  - first:
+      74: -7396189737468564957
+    second: BezierCircle|BezierCircle.001Action
+  - first:
+      74: 1507124062551883963
+    second: BezierCircle|BezierCircle.002Action
+  - first:
+      74: 3871482564343172543
+    second: BezierCircle|BezierCircle.003Action
+  - first:
+      74: 3792384961842383087
+    second: BezierCircle|BezierCircle.004Action.001
+  - first:
+      74: 1755634338184372884
+    second: BezierCircle|BezierCircle.005Action
+  - first:
+      74: 6265108449316747855
+    second: BezierCircle|BezierCircle.006Action
+  - first:
+      74: -2247957105154364399
+    second: BezierCircle|BezierCircle.008Action
+  - first:
+      74: 2106206013536685938
+    second: BezierCircle|BezierCircleAction
+  - first:
+      74: 8730764489218219247
+    second: BezierCircle|BodyAction.001
+  - first:
+      74: -2270076495714445104
+    second: BezierCircle|Character ControllerAction
+  - first:
+      74: -1787994044463525979
+    second: BezierCircle|Directional ControllerAction
+  - first:
+      74: -162554211041081465
+    second: IK Target.001|BezierCircle.001Action
+  - first:
+      74: 4579145707668382990
+    second: IK Target.001|BezierCircle.002Action
+  - first:
+      74: 92407940706283459
+    second: IK Target.001|BezierCircle.003Action
+  - first:
+      74: -7053725067976607526
+    second: IK Target.001|BezierCircle.004Action.001
+  - first:
+      74: 528427677731060375
+    second: IK Target.001|BezierCircle.005Action
+  - first:
+      74: -3148949376316475128
+    second: IK Target.001|BezierCircle.006Action
+  - first:
+      74: 2255912877222969208
+    second: IK Target.001|BezierCircle.008Action
+  - first:
+      74: 6293572174644125966
+    second: IK Target.001|BezierCircleAction
+  - first:
+      74: -1959388038005952690
+    second: IK Target.001|BodyAction.001
+  - first:
+      74: 652817836519023919
+    second: IK Target.001|Character ControllerAction
+  - first:
+      74: -971385246985302229
+    second: IK Target.001|Directional ControllerAction
+  - first:
+      74: 860039920953928583
+    second: IK Target.001|IK TargetAction
+  - first:
+      74: -9200598331157033730
+    second: IK Target.001|IK TargetAction.003
+  - first:
+      74: 3852645642581077714
+    second: IK Target.001|IK TargetAction.005
+  - first:
+      74: -4131618989103959406
+    second: IK Target.001|IK TargetAction.007
+  - first:
+      74: -3134816208546976704
+    second: IK Target.001|IK TargetAction.009
+  - first:
+      74: -6130089198178140392
+    second: IK Target.001|IK TargetAction.011
+  - first:
+      74: -7386544361343175583
+    second: IK Target.001|IK TargetAction.013
+  - first:
+      74: 8380091100232953861
+    second: IK Target.001|IK TargetAction.016
+  - first:
+      74: 2567223542846479312
+    second: IK Target.002|BezierCircle.001Action
+  - first:
+      74: 3334372306697722569
+    second: IK Target.002|BezierCircle.002Action
+  - first:
+      74: 1201574357771676713
+    second: IK Target.002|BezierCircle.003Action
+  - first:
+      74: -334957335723645468
+    second: IK Target.002|BezierCircle.004Action.001
+  - first:
+      74: 3795209838397267810
+    second: IK Target.002|BezierCircle.005Action
+  - first:
+      74: -6929101506497768704
+    second: IK Target.002|BezierCircle.006Action
+  - first:
+      74: -6748649273370660301
+    second: IK Target.002|BezierCircle.008Action
+  - first:
+      74: 3145569008541123947
+    second: IK Target.002|BezierCircleAction
+  - first:
+      74: -3236122440652691370
+    second: IK Target.002|BodyAction.001
+  - first:
+      74: -2805008920539858536
+    second: IK Target.002|Character ControllerAction
+  - first:
+      74: -3732960959192923179
+    second: IK Target.002|Directional ControllerAction
+  - first:
+      74: 5634952758143241797
+    second: IK Target.002|IK TargetAction
+  - first:
+      74: 9113152162387226664
+    second: IK Target.002|IK TargetAction.003
+  - first:
+      74: 1135346783894846535
+    second: IK Target.002|IK TargetAction.005
+  - first:
+      74: -2507480878564076397
+    second: IK Target.002|IK TargetAction.007
+  - first:
+      74: -371837719973453132
+    second: IK Target.002|IK TargetAction.009
+  - first:
+      74: 1010103641591790753
+    second: IK Target.002|IK TargetAction.011
+  - first:
+      74: 8880533757906788897
+    second: IK Target.002|IK TargetAction.013
+  - first:
+      74: 8212234602135241285
+    second: IK Target.002|IK TargetAction.016
+  - first:
+      74: 2666657211009101854
+    second: IK Target.003|BezierCircle.001Action
+  - first:
+      74: 3783195289071521351
+    second: IK Target.003|BezierCircle.002Action
+  - first:
+      74: -5031774880721208774
+    second: IK Target.003|BezierCircle.003Action
+  - first:
+      74: -7842623804186638624
+    second: IK Target.003|BezierCircle.004Action.001
+  - first:
+      74: 1094321835213057436
+    second: IK Target.003|BezierCircle.005Action
+  - first:
+      74: 4152053551980271327
+    second: IK Target.003|BezierCircle.006Action
+  - first:
+      74: -8795589396661310885
+    second: IK Target.003|BezierCircle.008Action
+  - first:
+      74: 7598628165908205056
+    second: IK Target.003|BezierCircleAction
+  - first:
+      74: -6824623420870174905
+    second: IK Target.003|BodyAction.001
+  - first:
+      74: -6997759872018083293
+    second: IK Target.003|Character ControllerAction
+  - first:
+      74: -8305241985283152022
+    second: IK Target.003|Directional ControllerAction
+  - first:
+      74: -330616215348149914
+    second: IK Target.003|IK TargetAction
+  - first:
+      74: 2860462646873508512
+    second: IK Target.003|IK TargetAction.003
+  - first:
+      74: 4508510199896495923
+    second: IK Target.003|IK TargetAction.005
+  - first:
+      74: 8399571539723471132
+    second: IK Target.003|IK TargetAction.007
+  - first:
+      74: 523603936922037992
+    second: IK Target.003|IK TargetAction.009
+  - first:
+      74: -2200123676674749608
+    second: IK Target.003|IK TargetAction.011
+  - first:
+      74: 1993497641739749986
+    second: IK Target.003|IK TargetAction.013
+  - first:
+      74: 374094240106190295
+    second: IK Target.003|IK TargetAction.016
+  - first:
+      74: -2521968871346657658
+    second: IK Target.004|BezierCircle.001Action
+  - first:
+      74: 8981869382517451338
+    second: IK Target.004|BezierCircle.002Action
+  - first:
+      74: -7270833614640053027
+    second: IK Target.004|BezierCircle.003Action
+  - first:
+      74: -1925879162480558280
+    second: IK Target.004|BezierCircle.004Action.001
+  - first:
+      74: 4177584511109038022
+    second: IK Target.004|BezierCircle.005Action
+  - first:
+      74: 5273355454945389469
+    second: IK Target.004|BezierCircle.006Action
+  - first:
+      74: 4855050237461336876
+    second: IK Target.004|BezierCircle.008Action
+  - first:
+      74: -8832941824701544015
+    second: IK Target.004|BezierCircleAction
+  - first:
+      74: -4525769191951459921
+    second: IK Target.004|BodyAction.001
+  - first:
+      74: 3598047149257877334
+    second: IK Target.004|Character ControllerAction
+  - first:
+      74: -5668935160751060386
+    second: IK Target.004|Directional ControllerAction
+  - first:
+      74: -9128337028766770876
+    second: IK Target.004|IK TargetAction
+  - first:
+      74: 5826764584819965076
+    second: IK Target.004|IK TargetAction.003
+  - first:
+      74: 3062774347062830871
+    second: IK Target.004|IK TargetAction.005
+  - first:
+      74: -5908562344524663113
+    second: IK Target.004|IK TargetAction.007
+  - first:
+      74: 6031829464287295409
+    second: IK Target.004|IK TargetAction.009
+  - first:
+      74: 530901669336153565
+    second: IK Target.004|IK TargetAction.011
+  - first:
+      74: 3053354989155603879
+    second: IK Target.004|IK TargetAction.013
+  - first:
+      74: -5733276540054091492
+    second: IK Target.004|IK TargetAction.016
+  - first:
+      74: -5878144810125429681
+    second: IK Target.005|BezierCircle.001Action
+  - first:
+      74: 1301186187861850869
+    second: IK Target.005|BezierCircle.002Action
+  - first:
+      74: 6759158205571881898
+    second: IK Target.005|BezierCircle.003Action
+  - first:
+      74: -1541902953225834084
+    second: IK Target.005|BezierCircle.004Action.001
+  - first:
+      74: -995441240412519755
+    second: IK Target.005|BezierCircle.005Action
+  - first:
+      74: 3882292698834369606
+    second: IK Target.005|BezierCircle.006Action
+  - first:
+      74: 4646016839340118895
+    second: IK Target.005|BezierCircle.008Action
+  - first:
+      74: 2660983252253389611
+    second: IK Target.005|BezierCircleAction
+  - first:
+      74: 5285349337430258803
+    second: IK Target.005|BodyAction.001
+  - first:
+      74: 6387606391900451686
+    second: IK Target.005|Character ControllerAction
+  - first:
+      74: -482514367403779555
+    second: IK Target.005|Directional ControllerAction
+  - first:
+      74: -669552403823724040
+    second: IK Target.005|IK TargetAction
+  - first:
+      74: 5741707708792399978
+    second: IK Target.005|IK TargetAction.003
+  - first:
+      74: -3235730259411014084
+    second: IK Target.005|IK TargetAction.005
+  - first:
+      74: -1626991692033839920
+    second: IK Target.005|IK TargetAction.007
+  - first:
+      74: -6488638211677208000
+    second: IK Target.005|IK TargetAction.009
+  - first:
+      74: 3633978115874692837
+    second: IK Target.005|IK TargetAction.011
+  - first:
+      74: 3311846614336289963
+    second: IK Target.005|IK TargetAction.013
+  - first:
+      74: 2001916138635370275
+    second: IK Target.005|IK TargetAction.016
+  - first:
+      74: -4946969708086863396
+    second: IK Target.006|BezierCircle.001Action
+  - first:
+      74: 827439318311262576
+    second: IK Target.006|BezierCircle.002Action
+  - first:
+      74: -616742646609794943
+    second: IK Target.006|BezierCircle.003Action
+  - first:
+      74: -1413665430163718248
+    second: IK Target.006|BezierCircle.004Action.001
+  - first:
+      74: -4771008785820205452
+    second: IK Target.006|BezierCircle.005Action
+  - first:
+      74: -7461736018273729675
+    second: IK Target.006|BezierCircle.006Action
+  - first:
+      74: -3438171459513430383
+    second: IK Target.006|BezierCircle.008Action
+  - first:
+      74: -3027778143953204515
+    second: IK Target.006|BezierCircleAction
+  - first:
+      74: 1503224964001328547
+    second: IK Target.006|BodyAction.001
+  - first:
+      74: -3004536313935041692
+    second: IK Target.006|Character ControllerAction
+  - first:
+      74: 2352400665800056851
+    second: IK Target.006|Directional ControllerAction
+  - first:
+      74: 4014192577465226306
+    second: IK Target.006|IK TargetAction
+  - first:
+      74: -3847802170743050911
+    second: IK Target.006|IK TargetAction.003
+  - first:
+      74: -4624950185240746120
+    second: IK Target.006|IK TargetAction.005
+  - first:
+      74: -1984061451527593906
+    second: IK Target.006|IK TargetAction.007
+  - first:
+      74: 2624723565220758789
+    second: IK Target.006|IK TargetAction.009
+  - first:
+      74: -6003914929472464236
+    second: IK Target.006|IK TargetAction.011
+  - first:
+      74: 7777503338627098968
+    second: IK Target.006|IK TargetAction.013
+  - first:
+      74: 6851882579539529629
+    second: IK Target.006|IK TargetAction.016
+  - first:
+      74: 2496347975015555899
+    second: IK Target.007|BezierCircle.001Action
+  - first:
+      74: -5630525209799073396
+    second: IK Target.007|BezierCircle.002Action
+  - first:
+      74: 7371962520187604594
+    second: IK Target.007|BezierCircle.003Action
+  - first:
+      74: 3413140230298070798
+    second: IK Target.007|BezierCircle.004Action.001
+  - first:
+      74: 7618199326422282017
+    second: IK Target.007|BezierCircle.005Action
+  - first:
+      74: -7140343349287745722
+    second: IK Target.007|BezierCircle.006Action
+  - first:
+      74: -7021045734310266412
+    second: IK Target.007|BezierCircle.008Action
+  - first:
+      74: -2157611760784745524
+    second: IK Target.007|BezierCircleAction
+  - first:
+      74: -5392653113370420319
+    second: IK Target.007|BodyAction.001
+  - first:
+      74: -3890250181471630691
+    second: IK Target.007|Character ControllerAction
+  - first:
+      74: -7735692808880340359
+    second: IK Target.007|Directional ControllerAction
+  - first:
+      74: -3700597914731488238
+    second: IK Target.007|IK TargetAction
+  - first:
+      74: 5099819098614632866
+    second: IK Target.007|IK TargetAction.003
+  - first:
+      74: 2147019186812427735
+    second: IK Target.007|IK TargetAction.005
+  - first:
+      74: 6626769038762796946
+    second: IK Target.007|IK TargetAction.007
+  - first:
+      74: 1717475671283273368
+    second: IK Target.007|IK TargetAction.009
+  - first:
+      74: -3116323549248641878
+    second: IK Target.007|IK TargetAction.011
+  - first:
+      74: 1227371937589486648
+    second: IK Target.007|IK TargetAction.013
+  - first:
+      74: -5482143360287322877
+    second: IK Target.007|IK TargetAction.016
+  - first:
+      74: 6979504822295248581
+    second: BezierCircle.001|BezierCircle.001Action
+  - first:
+      74: -4341765229581333085
+    second: BezierCircle.001|BezierCircle.002Action
+  - first:
+      74: -4344379675637107594
+    second: BezierCircle.001|BezierCircle.003Action
+  - first:
+      74: -6179996200891858999
+    second: BezierCircle.001|BezierCircle.004Action.001
+  - first:
+      74: 7342975324614695515
+    second: BezierCircle.001|BezierCircle.005Action
+  - first:
+      74: 5858046769955353095
+    second: BezierCircle.001|BezierCircle.006Action
+  - first:
+      74: 3548696364372722609
+    second: BezierCircle.001|BezierCircle.008Action
+  - first:
+      74: -232409206912074659
+    second: BezierCircle.001|BezierCircleAction
+  - first:
+      74: -8592382776718239933
+    second: BezierCircle.001|BodyAction.001
+  - first:
+      74: -6053910250962369207
+    second: BezierCircle.001|Character ControllerAction
+  - first:
+      74: -2834480277217855545
+    second: BezierCircle.001|Directional ControllerAction
+  - first:
+      74: -2101932044436306836
+    second: BezierCircle.008|BezierCircle.001Action
+  - first:
+      74: -4219678754833871041
+    second: BezierCircle.008|BezierCircle.002Action
+  - first:
+      74: 6405753223416291452
+    second: BezierCircle.008|BezierCircle.003Action
+  - first:
+      74: -9078384049841663990
+    second: BezierCircle.008|BezierCircle.004Action.001
+  - first:
+      74: -2853064404486403037
+    second: BezierCircle.008|BezierCircle.005Action
+  - first:
+      74: -7708317119443898724
+    second: BezierCircle.008|BezierCircle.006Action
+  - first:
+      74: -3105423416035687439
+    second: BezierCircle.008|BezierCircle.008Action
+  - first:
+      74: 2220003470462562220
+    second: BezierCircle.008|BezierCircleAction
+  - first:
+      74: 7835784487728526870
+    second: BezierCircle.008|BodyAction.001
+  - first:
+      74: -2779620517998597945
+    second: BezierCircle.008|Character ControllerAction
+  - first:
+      74: -7975545262635448003
+    second: BezierCircle.008|Directional ControllerAction
+  - first:
+      74: -7285907970430540478
+    second: BezierCircle.002|BezierCircle.001Action
+  - first:
+      74: 6843524560279557008
+    second: BezierCircle.002|BezierCircle.002Action
+  - first:
+      74: 7328708889350107461
+    second: BezierCircle.002|BezierCircle.003Action
+  - first:
+      74: 4719493028850469070
+    second: BezierCircle.002|BezierCircle.004Action.001
+  - first:
+      74: -2808408964496977092
+    second: BezierCircle.002|BezierCircle.005Action
+  - first:
+      74: -814164148352021476
+    second: BezierCircle.002|BezierCircle.006Action
+  - first:
+      74: 7190803034170549349
+    second: BezierCircle.002|BezierCircle.008Action
+  - first:
+      74: 3208219878273681521
+    second: BezierCircle.002|BezierCircleAction
+  - first:
+      74: 126257046314935539
+    second: BezierCircle.002|BodyAction.001
+  - first:
+      74: -3524135382592265762
+    second: BezierCircle.002|Character ControllerAction
+  - first:
+      74: 6245782396443048532
+    second: BezierCircle.002|Directional ControllerAction
+  - first:
+      74: 3834086776487760487
+    second: BezierCircle.003|BezierCircle.001Action
+  - first:
+      74: 999232681510246079
+    second: BezierCircle.003|BezierCircle.002Action
+  - first:
+      74: -2275268279803729157
+    second: BezierCircle.003|BezierCircle.003Action
+  - first:
+      74: 7121503400456198425
+    second: BezierCircle.003|BezierCircle.004Action.001
+  - first:
+      74: 5947360381745987640
+    second: BezierCircle.003|BezierCircle.005Action
+  - first:
+      74: -185178392688064126
+    second: BezierCircle.003|BezierCircle.006Action
+  - first:
+      74: 3822928796564376512
+    second: BezierCircle.003|BezierCircle.008Action
+  - first:
+      74: 3336778632922885665
+    second: BezierCircle.003|BezierCircleAction
+  - first:
+      74: -2175727765730425831
+    second: BezierCircle.003|BodyAction.001
+  - first:
+      74: -39688460988738710
+    second: BezierCircle.003|Character ControllerAction
+  - first:
+      74: -1744224156040255573
+    second: BezierCircle.003|Directional ControllerAction
+  - first:
+      74: 7639224778581716206
+    second: BezierCircle.004|BezierCircle.001Action
+  - first:
+      74: -1147366288777981418
+    second: BezierCircle.004|BezierCircle.002Action
+  - first:
+      74: 1801924929608626743
+    second: BezierCircle.004|BezierCircle.003Action
+  - first:
+      74: -749486264330053700
+    second: BezierCircle.004|BezierCircle.004Action.001
+  - first:
+      74: -1239544362498584073
+    second: BezierCircle.004|BezierCircle.005Action
+  - first:
+      74: 1176413985881529355
+    second: BezierCircle.004|BezierCircle.006Action
+  - first:
+      74: 3452410069783155770
+    second: BezierCircle.004|BezierCircle.008Action
+  - first:
+      74: 1542990606666859207
+    second: BezierCircle.004|BezierCircleAction
+  - first:
+      74: 4234387124924390949
+    second: BezierCircle.004|BodyAction.001
+  - first:
+      74: -5615844076507878222
+    second: BezierCircle.004|Character ControllerAction
+  - first:
+      74: -3725151001768820103
+    second: BezierCircle.004|Directional ControllerAction
+  - first:
+      74: -5084295403583387807
+    second: BezierCircle.005|BezierCircle.001Action
+  - first:
+      74: 7841224081855707264
+    second: BezierCircle.005|BezierCircle.002Action
+  - first:
+      74: 4816354015141780793
+    second: BezierCircle.005|BezierCircle.003Action
+  - first:
+      74: -2678129450943544701
+    second: BezierCircle.005|BezierCircle.004Action.001
+  - first:
+      74: -78589352066554507
+    second: BezierCircle.005|BezierCircle.005Action
+  - first:
+      74: 8796585470768836705
+    second: BezierCircle.005|BezierCircle.006Action
+  - first:
+      74: 3069270953491600353
+    second: BezierCircle.005|BezierCircle.008Action
+  - first:
+      74: -797648993579615240
+    second: BezierCircle.005|BezierCircleAction
+  - first:
+      74: 4434162138658582382
+    second: BezierCircle.005|BodyAction.001
+  - first:
+      74: -579115028814812644
+    second: BezierCircle.005|Character ControllerAction
+  - first:
+      74: 1369731000531201902
+    second: BezierCircle.005|Directional ControllerAction
+  - first:
+      74: 1956092328887229317
+    second: BezierCircle.006|BezierCircle.001Action
+  - first:
+      74: -4196777973214625379
+    second: BezierCircle.006|BezierCircle.002Action
+  - first:
+      74: -2738659794018284632
+    second: BezierCircle.006|BezierCircle.003Action
+  - first:
+      74: -8543696699497090676
+    second: BezierCircle.006|BezierCircle.004Action.001
+  - first:
+      74: 7707809848758483303
+    second: BezierCircle.006|BezierCircle.005Action
+  - first:
+      74: -4829303596991986804
+    second: BezierCircle.006|BezierCircle.006Action
+  - first:
+      74: -8735134810579746073
+    second: BezierCircle.006|BezierCircle.008Action
+  - first:
+      74: 5511302742537113890
+    second: BezierCircle.006|BezierCircleAction
+  - first:
+      74: -6256092551727472974
+    second: BezierCircle.006|BodyAction.001
+  - first:
+      74: -6456225936521532234
+    second: BezierCircle.006|Character ControllerAction
+  - first:
+      74: 5848490085714717457
+    second: BezierCircle.006|Directional ControllerAction
+  - first:
+      74: 5076479040643389285
+    second: Directional Controller|BezierCircle.001Action
+  - first:
+      74: -2822143307293837960
+    second: Directional Controller|BezierCircle.002Action
+  - first:
+      74: -4067271843430765000
+    second: Directional Controller|BezierCircle.003Action
+  - first:
+      74: -8903418724546005463
+    second: Directional Controller|BezierCircle.004Action.001
+  - first:
+      74: -5230547840748030522
+    second: Directional Controller|BezierCircle.005Action
+  - first:
+      74: 6255367795820313072
+    second: Directional Controller|BezierCircle.006Action
+  - first:
+      74: -7163467774204030389
+    second: Directional Controller|BezierCircle.008Action
+  - first:
+      74: 2744197304267125664
+    second: Directional Controller|BezierCircleAction
+  - first:
+      74: 8043898787370558707
+    second: Directional Controller|BodyAction.001
+  - first:
+      74: -5959408437328432872
+    second: Directional Controller|Character ControllerAction
+  - first:
+      74: 1363901106850709979
+    second: Directional Controller|Directional ControllerAction
+  - first:
+      74: -4073597474445069063
+    second: Character Controller|BezierCircle.001Action
+  - first:
+      74: 56700602208648404
+    second: Character Controller|BezierCircle.002Action
+  - first:
+      74: -7577365105217921202
+    second: Character Controller|BezierCircle.003Action
+  - first:
+      74: -5690434378050263115
+    second: Character Controller|BezierCircle.004Action.001
+  - first:
+      74: -2784450924470323054
+    second: Character Controller|BezierCircle.005Action
+  - first:
+      74: 4875847470637434403
+    second: Character Controller|BezierCircle.006Action
+  - first:
+      74: -4371694395626065858
+    second: Character Controller|BezierCircle.008Action
+  - first:
+      74: -5906032243553168658
+    second: Character Controller|BezierCircleAction
+  - first:
+      74: -788736108872933958
+    second: Character Controller|BodyAction.001
+  - first:
+      74: 4248336411927375548
+    second: Character Controller|Character ControllerAction
+  - first:
+      74: -1546114597237884112
+    second: Character Controller|Directional ControllerAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Body
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

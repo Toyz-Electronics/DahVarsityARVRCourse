@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+#Cache Library
+/Library
+Library/
+# Logs
+/Logs
+Logs/
+#Temp files
+/Temp
+#CSProj
+.csproj
+.log
+UserSettings/EditorUserSettings.asset
+UserSettings/EditorUserSettings.asset

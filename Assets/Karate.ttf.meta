@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 67cef2ed96d83ab4680d4b1d1d564be1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Karate
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 986afa7ec69f3c04885357b1b88ac873, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
