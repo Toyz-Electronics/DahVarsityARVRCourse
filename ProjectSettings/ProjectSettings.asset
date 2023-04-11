@@ -874,8 +874,9 @@ PlayerSettings:
       PrivateNetworkClientServer: True
       InternetClientServer: True
       SpatialPerception: True
-      WebCam: True
       InternetClient: True
+      WebCam: True
+      Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 
   metroFTAFileTypes: []
