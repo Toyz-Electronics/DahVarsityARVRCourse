@@ -26,7 +26,7 @@ namespace ReadyPlayerMe.QuickStart
 
             if (previewAvatar != null)
             {
-                SetupAvatar(previewAvatar);
+                //SetupAvatar(previewAvatar);
             }
             if (loadOnStart)
             {

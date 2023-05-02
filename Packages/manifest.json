@@ -1,11 +1,6 @@
 {
   "dependencies": {
     "com.atteneder.gltfast": "file:/Users/aashishadhikari/Downloads/glTFast-main",
-    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.7.2.tgz",
-    "com.microsoft.mixedreality.toolkit.examples": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.8.3.tgz",
-    "com.microsoft.mixedreality.toolkit.extensions": "file:MixedReality/com.microsoft.mixedreality.toolkit.extensions-2.8.3.tgz",
-    "com.microsoft.mixedreality.toolkit.foundation": "file:MixedReality/com.microsoft.mixedreality.toolkit.foundation-2.8.3.tgz",
-    "com.microsoft.mixedreality.toolkit.standardassets": "file:MixedReality/com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz",
     "com.readyplayerme.avatarloader": "file:/Users/aashishadhikari/Downloads/rpm-unity-sdk-avatar-loader-1.1.0",
     "com.readyplayerme.core": "file:/Users/aashishadhikari/Downloads/rpm-unity-sdk-core-1.1.0",
     "com.readyplayerme.webview": "file:/Users/aashishadhikari/Downloads/rpm-unity-sdk-webview-1.1.0",
