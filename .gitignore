@@ -6,9 +6,10 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-#Cache Library
+#Cache Library 
 /Library
 Library/
+!Library/PackageCache
 # Logs
 /Logs
 Logs/

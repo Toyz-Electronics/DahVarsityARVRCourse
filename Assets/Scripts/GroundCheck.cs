@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GroundCheck : MonoBehaviour
+public class GroundCheckAashish : MonoBehaviour
 {
     [SerializeField][Tooltip("Useful for rough ground")]
     private float groundedOffset = -0.22f;

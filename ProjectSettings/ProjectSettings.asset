@@ -137,7 +137,7 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 7176538704283965337, guid: a13dca22e54496a4386f341ad8f7d46c, type: 2}
-  - {fileID: 5316449374116838894, guid: 1f873ff452aba0446b290f8950f68c15, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -873,6 +873,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      GazeInput: True
       PrivateNetworkClientServer: True
       InternetClientServer: True
       SpatialPerception: True
@@ -913,7 +914,10 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 1
+    Collab: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -928,11 +932,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 62208e32-ecdd-4296-a570-e8563484a7e0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Dah-Varsity
+  organizationId: toyzsteam
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

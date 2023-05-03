@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ReadyPlayerMe.QuickStart
 {
-    public class ThirdPersonLoader : MonoBehaviour
+    public class ThirdPersonLoaderAashish : MonoBehaviour
     {
         private readonly Vector3 avatarPositionOffset = new Vector3(0, -0.08f, 0);
 

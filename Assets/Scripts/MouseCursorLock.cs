@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseCursorLock : MonoBehaviour
+public class MouseCursorLockAashish : MonoBehaviour
 {
     [SerializeField][Tooltip("Defines the Cursor Lock Mode to apply")] 
     private CursorLockMode cursorLockMode;

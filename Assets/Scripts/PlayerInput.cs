@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ReadyPlayerMe.QuickStart
 {
-    public class PlayerInput : MonoBehaviour
+    public class PlayerInputAashish : MonoBehaviour
     {
         private const string HORIZONTAL_AXIS = "Horizontal";
         private const string VERTICAL_AXIS = "Vertical";

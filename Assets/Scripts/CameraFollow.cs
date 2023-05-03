@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ReadyPlayerMe.QuickStart
 {
-    public class CameraFollow : MonoBehaviour
+    public class CameraFollowAashish : MonoBehaviour
     {
         private const string TARGET_NOT_SET = "Target not set, disabling component";
         private readonly string TAG = typeof(CameraFollow).ToString();
