@@ -56,68 +56,68 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\EditorWindows\WelcomeWindow.cs">
-      <Link>Editor\UI\EditorWindows\WelcomeWindow.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AnalyticsEditorLogger.cs">
-      <Link>Editor\Analytics\AnalyticsEditorLogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\Banner.cs">
-      <Link>Editor\UI\Components\Banner.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AmplitudeEventLogger.cs">
-      <Link>Editor\Analytics\AmplitudeEventLogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleInstaller.cs">
-      <Link>Editor\Module Management\ModuleInstaller.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\EditorWindows\EditorWindowBase.cs">
-      <Link>Editor\UI\EditorWindows\EditorWindowBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EditorUtilities.cs">
-      <Link>Editor\Utils\EditorUtilities.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleList.cs">
-      <Link>Editor\Module Management\ModuleList.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EntryPoint.cs">
-      <Link>Editor\Utils\EntryPoint.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\IAnalyticsEventLogger.cs">
-      <Link>Editor\Analytics\IAnalyticsEventLogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\SubdomainHelper.cs">
-      <Link>Editor\Utils\SubdomainHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\Constants.cs">
-      <Link>Editor\Analytics\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\Footer.cs">
-      <Link>Editor\UI\Components\Footer.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleInfo.cs">
       <Link>Editor\Module Management\ModuleInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\QuickStartPanel.cs">
-      <Link>Editor\UI\Components\QuickStartPanel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleUpdater.cs">
-      <Link>Editor\Module Management\ModuleUpdater.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EditorAssetGenerator.cs">
-      <Link>Editor\Utils\EditorAssetGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\IEditorWindowComponent.cs">
-      <Link>Editor\UI\Components\IEditorWindowComponent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AnalyticsEventLogger.cs">
-      <Link>Editor\Analytics\AnalyticsEventLogger.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\AnalyticsPanel.cs">
       <Link>Editor\UI\Components\AnalyticsPanel.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\Banner.cs">
+      <Link>Editor\UI\Components\Banner.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\EditorWindows\EditorWindowBase.cs">
+      <Link>Editor\UI\EditorWindows\EditorWindowBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AnalyticsEventLogger.cs">
+      <Link>Editor\Analytics\AnalyticsEventLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EditorUtilities.cs">
+      <Link>Editor\Utils\EditorUtilities.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AmplitudeEventLogger.cs">
+      <Link>Editor\Analytics\AmplitudeEventLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\IEditorWindowComponent.cs">
+      <Link>Editor\UI\Components\IEditorWindowComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\Constants.cs">
+      <Link>Editor\Analytics\Constants.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\QuickStartPanel.cs">
+      <Link>Editor\UI\Components\QuickStartPanel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\Components\Footer.cs">
+      <Link>Editor\UI\Components\Footer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\AnalyticsEditorLogger.cs">
+      <Link>Editor\Analytics\AnalyticsEditorLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\UI\EditorWindows\WelcomeWindow.cs">
+      <Link>Editor\UI\EditorWindows\WelcomeWindow.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EntryPoint.cs">
+      <Link>Editor\Utils\EntryPoint.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleList.cs">
+      <Link>Editor\Module Management\ModuleList.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleUpdater.cs">
+      <Link>Editor\Module Management\ModuleUpdater.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Analytics\IAnalyticsEventLogger.cs">
+      <Link>Editor\Analytics\IAnalyticsEventLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\EditorAssetGenerator.cs">
+      <Link>Editor\Utils\EditorAssetGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\SubdomainHelper.cs">
+      <Link>Editor\Utils\SubdomainHelper.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Utils\ProjectPrefs.cs">
       <Link>Editor\Utils\ProjectPrefs.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Editor\Module Management\ModuleInstaller.cs">
+      <Link>Editor\Module Management\ModuleInstaller.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

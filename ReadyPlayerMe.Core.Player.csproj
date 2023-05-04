@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Logger\CustomLogHandler.cs">
-      <Link>Runtime\Logger\CustomLogHandler.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\AppData.cs">
       <Link>Runtime\AppData.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\CommonHeaders.cs">
-      <Link>Runtime\CommonHeaders.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Logger\CustomLogHandler.cs">
+      <Link>Runtime\Logger\CustomLogHandler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Logger\SDKLogger.cs">
+      <Link>Runtime\Logger\SDKLogger.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\RuntimeDebugPanel.cs">
       <Link>Runtime\RuntimeDebugPanel.cs</Link>
@@ -71,23 +71,23 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Interfaces\IOperation.cs">
       <Link>Runtime\Interfaces\IOperation.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Logger\SDKLogger.cs">
-      <Link>Runtime\Logger\SDKLogger.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Data\CoreSettings.cs">
+      <Link>Runtime\Data\CoreSettings.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Utils\DirectoryUtility.cs">
       <Link>Runtime\Utils\DirectoryUtility.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\OperationExecutor.cs">
+      <Link>Runtime\OperationExecutor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\CommonHeaders.cs">
+      <Link>Runtime\CommonHeaders.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\CoreSettingsHandler.cs">
       <Link>Runtime\CoreSettingsHandler.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\ApplicationData.cs">
       <Link>Runtime\ApplicationData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\OperationExecutor.cs">
-      <Link>Runtime\OperationExecutor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-core-1.1.0\Runtime\Data\CoreSettings.cs">
-      <Link>Runtime\Data\CoreSettings.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

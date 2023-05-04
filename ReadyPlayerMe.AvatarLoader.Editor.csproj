@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\BuildPostProcessor.cs">
+      <Link>Editor\BuildPostProcessor.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\Postprocessor.cs">
       <Link>Editor\Postprocessor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\UI\EditorWindows\AvatarLoaderEditorWindow.cs">
-      <Link>Editor\UI\EditorWindows\AvatarLoaderEditorWindow.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\AnimationExtractor.cs">
       <Link>Editor\AnimationExtractor.cs</Link>
@@ -68,26 +68,26 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\BuildPreprocessor.cs">
       <Link>Editor\BuildPreprocessor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\EditorAssetGenerator.cs">
-      <Link>Editor\EditorAssetGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\BuildPostProcessor.cs">
-      <Link>Editor\BuildPostProcessor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\AvatarDataEditor.cs">
-      <Link>Editor\AvatarDataEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\UI\EditorWindows\SettingsEditorWindow.cs">
-      <Link>Editor\UI\EditorWindows\SettingsEditorWindow.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\AvatarConfigEditor.cs">
-      <Link>Editor\AvatarConfigEditor.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\DefaultSettings.cs">
+      <Link>Editor\DefaultSettings.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\ShaderVariantHelper.cs">
       <Link>Editor\ShaderVariantHelper.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\DefaultSettings.cs">
-      <Link>Editor\DefaultSettings.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\UI\EditorWindows\SettingsEditorWindow.cs">
+      <Link>Editor\UI\EditorWindows\SettingsEditorWindow.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\EditorAssetGenerator.cs">
+      <Link>Editor\EditorAssetGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\AvatarConfigEditor.cs">
+      <Link>Editor\AvatarConfigEditor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\AvatarDataEditor.cs">
+      <Link>Editor\AvatarDataEditor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Editor\UI\EditorWindows\AvatarLoaderEditorWindow.cs">
+      <Link>Editor\UI\EditorWindows\AvatarLoaderEditorWindow.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

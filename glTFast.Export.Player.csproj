@@ -56,65 +56,65 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ImageExportBase.cs">
-      <Link>Runtime\Scripts\Export\ImageExportBase.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ImageFormat.cs">
       <Link>Runtime\Scripts\Export\ImageFormat.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaterialExport.cs">
-      <Link>Runtime\Scripts\Export\MaterialExport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\HighDefinitionMaterialExport.cs">
-      <Link>Runtime\Scripts\Export\HighDefinitionMaterialExport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaterialExportBase.cs">
-      <Link>Runtime\Scripts\Export\MaterialExportBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\IGltfWritable.cs">
-      <Link>Runtime\Scripts\Export\IGltfWritable.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\GameObjectExportSettings.cs">
-      <Link>Runtime\Scripts\Export\GameObjectExportSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\IMaterialExport.cs">
-      <Link>Runtime\Scripts\Export\IMaterialExport.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\GltfWriter.cs">
       <Link>Runtime\Scripts\Export\GltfWriter.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\GameObjectExport.cs">
-      <Link>Runtime\Scripts\Export\GameObjectExport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\Constants.cs">
-      <Link>Runtime\Scripts\Export\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ImageExport.cs">
-      <Link>Runtime\Scripts\Export\ImageExport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ExportJobs.cs">
-      <Link>Runtime\Scripts\Export\ExportJobs.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ExportSettings.cs">
       <Link>Runtime\Scripts\Export\ExportSettings.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaskMapImageExport.cs">
-      <Link>Runtime\Scripts\Export\MaskMapImageExport.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MeshMaterialCombination.cs">
+      <Link>Runtime\Scripts\Export\MeshMaterialCombination.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\NormalImageExport.cs">
-      <Link>Runtime\Scripts\Export\NormalImageExport.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ImageExportBase.cs">
+      <Link>Runtime\Scripts\Export\ImageExportBase.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\StandardMaterialExport.cs">
-      <Link>Runtime\Scripts\Export\StandardMaterialExport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\StreamExtension.cs">
-      <Link>Runtime\Scripts\Export\StreamExtension.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\GameObjectExport.cs">
+      <Link>Runtime\Scripts\Export\GameObjectExport.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\OrmImageExport.cs">
       <Link>Runtime\Scripts\Export\OrmImageExport.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MeshMaterialCombination.cs">
-      <Link>Runtime\Scripts\Export\MeshMaterialCombination.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\IMaterialExport.cs">
+      <Link>Runtime\Scripts\Export\IMaterialExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaterialExport.cs">
+      <Link>Runtime\Scripts\Export\MaterialExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaterialExportBase.cs">
+      <Link>Runtime\Scripts\Export\MaterialExportBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ExportJobs.cs">
+      <Link>Runtime\Scripts\Export\ExportJobs.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\StreamExtension.cs">
+      <Link>Runtime\Scripts\Export\StreamExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\IGltfWritable.cs">
+      <Link>Runtime\Scripts\Export\IGltfWritable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\NormalImageExport.cs">
+      <Link>Runtime\Scripts\Export\NormalImageExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\Constants.cs">
+      <Link>Runtime\Scripts\Export\Constants.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\StandardMaterialExport.cs">
+      <Link>Runtime\Scripts\Export\StandardMaterialExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\ImageExport.cs">
+      <Link>Runtime\Scripts\Export\ImageExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\HighDefinitionMaterialExport.cs">
+      <Link>Runtime\Scripts\Export\HighDefinitionMaterialExport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\GameObjectExportSettings.cs">
+      <Link>Runtime\Scripts\Export\GameObjectExportSettings.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Export\MaskMapImageExport.cs">
+      <Link>Runtime\Scripts\Export\MaskMapImageExport.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -56,71 +56,71 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\AvatarPropertiesExtensions.cs">
-      <Link>Runtime\JsonHelpers\AvatarPropertiesExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\BodyTypeConverter.cs">
-      <Link>Runtime\JsonHelpers\BodyTypeConverter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\PartnerAssetsDictionaryConverter.cs">
-      <Link>Runtime\JsonHelpers\PartnerAssetsDictionaryConverter.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\UserSession.cs">
+      <Link>Runtime\Data\UserSession.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\WebRequests\AvatarAPIRequests.cs">
       <Link>Runtime\WebRequests\AvatarAPIRequests.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\AssetTypeHelper.cs">
-      <Link>Runtime\Utils\AssetTypeHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\WebRequestDispatcher.cs">
-      <Link>Runtime\Utils\WebRequestDispatcher.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\AvatarManager.cs">
-      <Link>Runtime\AvatarManager.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\PartnerAssetsDictionaryConverter.cs">
+      <Link>Runtime\JsonHelpers\PartnerAssetsDictionaryConverter.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\WebRequests\AuthRequests.cs">
       <Link>Runtime\WebRequests\AuthRequests.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\AssetTypeConverter.cs">
-      <Link>Runtime\JsonHelpers\AssetTypeConverter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\InCreatorAvatarLoader.cs">
-      <Link>Runtime\InCreatorAvatarLoader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\ListExtensions.cs">
-      <Link>Runtime\Utils\ListExtensions.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\AvatarManager.cs">
+      <Link>Runtime\AvatarManager.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\AvatarProperties.cs">
       <Link>Runtime\Data\AvatarProperties.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\PartnerAssetsManager.cs">
-      <Link>Runtime\PartnerAssetsManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\UserSession.cs">
-      <Link>Runtime\Data\UserSession.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\Endpoints.cs">
-      <Link>Runtime\Data\Endpoints.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\Response.cs">
-      <Link>Runtime\Data\Response.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\WebRequestDispatcher.cs">
+      <Link>Runtime\Utils\WebRequestDispatcher.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\AvatarPropertiesConstants.cs">
       <Link>Runtime\Data\AvatarPropertiesConstants.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\WebRequests\PartnerAssetsRequests.cs">
-      <Link>Runtime\WebRequests\PartnerAssetsRequests.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\AssetType.cs">
-      <Link>Runtime\Data\AssetType.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\PartnerAssets.cs">
       <Link>Runtime\Data\PartnerAssets.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\InCreatorAvatarLoader.cs">
+      <Link>Runtime\InCreatorAvatarLoader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\AvatarPropertiesExtensions.cs">
+      <Link>Runtime\JsonHelpers\AvatarPropertiesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\Response.cs">
+      <Link>Runtime\Data\Response.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\GenderConverter.cs">
       <Link>Runtime\JsonHelpers\GenderConverter.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\AssetTypeHelper.cs">
+      <Link>Runtime\Utils\AssetTypeHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\WebRequests\PartnerAssetsRequests.cs">
+      <Link>Runtime\WebRequests\PartnerAssetsRequests.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\AuthManager.cs">
       <Link>Runtime\AuthManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\PartnerAssetsManager.cs">
+      <Link>Runtime\PartnerAssetsManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\Endpoints.cs">
+      <Link>Runtime\Data\Endpoints.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\BodyTypeConverter.cs">
+      <Link>Runtime\JsonHelpers\BodyTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Utils\ListExtensions.cs">
+      <Link>Runtime\Utils\ListExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\Data\AssetType.cs">
+      <Link>Runtime\Data\AssetType.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-creator-0.1.1\Runtime\JsonHelpers\AssetTypeConverter.cs">
+      <Link>Runtime\JsonHelpers\AssetTypeConverter.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

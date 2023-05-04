@@ -17,6 +17,7 @@ public class AnimationController : MonoBehaviour
     {
         anim.SetBool("IsRunning", false);
         anim.SetBool("IsWalking", true);
+        anim.SetBool("IsJump", false);
     }
 
     public void Idle()
@@ -24,8 +25,11 @@ public class AnimationController : MonoBehaviour
         anim.SetBool("IsRunning", false);
         //anim.SetBool("IsTeleport", false);
         anim.SetBool("IsWalking", false);
-        
-        
+        anim.SetBool("IsJump", false);
+        anim.SetBool("IsDodge", false);
+       // anim.SetBool("IsJumping", false);
+
+
     }
 
     public void Teleport()
@@ -49,8 +53,18 @@ public class AnimationController : MonoBehaviour
     {
         anim.SetBool("IsWalking", false);
         anim.SetBool("IsRunning", true);
+        anim.SetBool("IsJump", false);
     }
-
+    public void RunJump()
+    {
+        anim.SetBool("IsJump", true);
+        anim.SetBool("IsRunning", true);
+    }
+    public void Jump()
+    {
+        anim.SetBool("IsJump", true);
+        anim.SetBool("IsRunning", false);
+    }
     public void Fight()
     {
 
@@ -63,11 +77,11 @@ public class AnimationController : MonoBehaviour
 
     public void Dodge()
     {
-
+        anim.SetBool("IsDodge", true);
     }
     IEnumerator JumpTime()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(4f);
         anim.SetBool("IsJumping", false);
     }
     

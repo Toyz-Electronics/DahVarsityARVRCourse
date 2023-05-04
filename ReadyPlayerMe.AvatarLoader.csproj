@@ -56,95 +56,83 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarMorphTarget.cs">
-      <Link>Runtime\Data\AvatarMorphTarget.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\AvatarDownloader.cs">
-      <Link>Runtime\Operations\AvatarDownloader.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Tests\Common\TestUtils.cs">
       <Link>Tests\Common\TestUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\RenderRequestParameterProcessor.cs">
-      <Link>Runtime\Operations\RenderRequestParameterProcessor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarCache.cs">
-      <Link>Runtime\Utils\AvatarCache.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarConfigMap.cs">
       <Link>Runtime\Utils\AvatarConfigMap.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarConfig.cs">
-      <Link>Runtime\Data\AvatarConfig.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\Response.cs">
-      <Link>Runtime\Data\Response.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Extras\VoiceHandler.cs">
-      <Link>Runtime\Extras\VoiceHandler.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\AvatarRenderDownloader.cs">
-      <Link>Runtime\Operations\AvatarRenderDownloader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarConfigProcessor.cs">
-      <Link>Runtime\Utils\AvatarConfigProcessor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarAnimatorHelper.cs">
-      <Link>Runtime\Utils\AvatarAnimatorHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Interfaces\IImporter.cs">
-      <Link>Runtime\Interfaces\IImporter.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\GltFastAvatarImporter.cs">
       <Link>Runtime\Operations\GltFastAvatarImporter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\CustomException.cs">
-      <Link>Runtime\Data\CustomException.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarRenderLoader.cs">
-      <Link>Runtime\AvatarRenderLoader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\MetadataDownloader.cs">
-      <Link>Runtime\Operations\MetadataDownloader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\GLTFDeferAgent.cs">
-      <Link>Runtime\GLTFDeferAgent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarUri.cs">
-      <Link>Runtime\Data\AvatarUri.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\ExtensionMethods.cs">
-      <Link>Runtime\Utils\ExtensionMethods.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarObjectLoader.cs">
-      <Link>Runtime\AvatarObjectLoader.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarData.cs">
-      <Link>Runtime\Data\AvatarData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarLoaderSettings.cs">
-      <Link>Runtime\AvatarLoaderSettings.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarMetadata.cs">
       <Link>Runtime\Data\AvatarMetadata.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarContext.cs">
-      <Link>Runtime\Data\AvatarContext.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\AvatarDownloader.cs">
+      <Link>Runtime\Operations\AvatarDownloader.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\Enums.cs">
       <Link>Runtime\Data\Enums.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarObjectLoader.cs">
+      <Link>Runtime\AvatarObjectLoader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarAnimatorHelper.cs">
+      <Link>Runtime\Utils\AvatarAnimatorHelper.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarRenderSettings.cs">
       <Link>Runtime\Data\AvatarRenderSettings.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarRenderLoader.cs">
+      <Link>Runtime\AvatarRenderLoader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\CustomException.cs">
+      <Link>Runtime\Data\CustomException.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Extras\EyeAnimationHandler.cs">
       <Link>Runtime\Extras\EyeAnimationHandler.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\WebRequestDispatcher.cs">
-      <Link>Runtime\Utils\WebRequestDispatcher.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarUri.cs">
+      <Link>Runtime\Data\AvatarUri.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\AvatarProcessor.cs">
       <Link>Runtime\Operations\AvatarProcessor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Interfaces\IImporter.cs">
+      <Link>Runtime\Interfaces\IImporter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarConfig.cs">
+      <Link>Runtime\Data\AvatarConfig.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\ExtensionMethods.cs">
+      <Link>Runtime\Utils\ExtensionMethods.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarCache.cs">
+      <Link>Runtime\Utils\AvatarCache.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\UrlProcessor.cs">
+      <Link>Runtime\Operations\UrlProcessor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\WebRequestDispatcher.cs">
+      <Link>Runtime\Utils\WebRequestDispatcher.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarContext.cs">
+      <Link>Runtime\Data\AvatarContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarMorphTarget.cs">
+      <Link>Runtime\Data\AvatarMorphTarget.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\AvatarRenderDownloader.cs">
+      <Link>Runtime\Operations\AvatarRenderDownloader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\Response.cs">
+      <Link>Runtime\Data\Response.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\MetadataDownloader.cs">
+      <Link>Runtime\Operations\MetadataDownloader.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Extras\VoiceHandler.cs">
+      <Link>Runtime\Extras\VoiceHandler.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\GltFastGameObjectInstantiator.cs">
       <Link>Runtime\Operations\GltFastGameObjectInstantiator.cs</Link>
@@ -152,8 +140,20 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\CustomEventArgs.cs">
       <Link>Runtime\Data\CustomEventArgs.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\UrlProcessor.cs">
-      <Link>Runtime\Operations\UrlProcessor.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Operations\RenderRequestParameterProcessor.cs">
+      <Link>Runtime\Operations\RenderRequestParameterProcessor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\GLTFDeferAgent.cs">
+      <Link>Runtime\GLTFDeferAgent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Data\AvatarData.cs">
+      <Link>Runtime\Data\AvatarData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\Utils\AvatarConfigProcessor.cs">
+      <Link>Runtime\Utils\AvatarConfigProcessor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\rpm-unity-sdk-avatar-loader-1.1.0\Runtime\AvatarLoaderSettings.cs">
+      <Link>Runtime\AvatarLoaderSettings.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -812,6 +812,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="WebView.csproj">
+      <Project>{A9D4EEF5-07F7-46D8-B091-22E323B1C81D}</Project>
+      <Name>WebView</Name>
+    </ProjectReference>
     <ProjectReference Include="glTFast.csproj">
       <Project>{DD630CFE-2A51-CEFE-45CF-DB5E08F1A8CE}</Project>
       <Name>glTFast</Name>

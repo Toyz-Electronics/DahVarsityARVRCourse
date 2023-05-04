@@ -56,8 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\Utils.cs">
-      <Link>Editor\Scripts\Utils.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\MenuEntries.cs">
+      <Link>Editor\Scripts\MenuEntries.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\ShaderGUIBase.cs">
+      <Link>Editor\Scripts\ShaderGUIBase.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\OnScriptsReloadHandler.cs">
       <Link>Editor\Scripts\OnScriptsReloadHandler.cs</Link>
@@ -65,41 +68,38 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\InstantiationSettingsEditor.cs">
       <Link>Editor\Scripts\InstantiationSettingsEditor.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\Utils.cs">
+      <Link>Editor\Scripts\Utils.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfImporter.cs">
       <Link>Editor\Scripts\GltfImporter.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfAssetEditor.cs">
+      <Link>Editor\Scripts\GltfAssetEditor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\EditorDownloadProvider.cs">
+      <Link>Editor\Scripts\EditorDownloadProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfImporterEditor.cs">
+      <Link>Editor\Scripts\GltfImporterEditor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfAssetDependency.cs">
+      <Link>Editor\Scripts\GltfAssetDependency.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\AsyncHelpers.cs">
+      <Link>Editor\Scripts\AsyncHelpers.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\EditorImportSettings.cs">
       <Link>Editor\Scripts\EditorImportSettings.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\BuiltInShaderGUI.cs">
+      <Link>Editor\Scripts\BuiltInShaderGUI.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\ImportSettingsEditor.cs">
       <Link>Editor\Scripts\ImportSettingsEditor.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\ShaderGraphGUI.cs">
       <Link>Editor\Scripts\ShaderGraphGUI.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\AsyncHelpers.cs">
-      <Link>Editor\Scripts\AsyncHelpers.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfAssetEditor.cs">
-      <Link>Editor\Scripts\GltfAssetEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\MenuEntries.cs">
-      <Link>Editor\Scripts\MenuEntries.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfImporterEditor.cs">
-      <Link>Editor\Scripts\GltfImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\BuiltInShaderGUI.cs">
-      <Link>Editor\Scripts\BuiltInShaderGUI.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\GltfAssetDependency.cs">
-      <Link>Editor\Scripts\GltfAssetDependency.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\ShaderGUIBase.cs">
-      <Link>Editor\Scripts\ShaderGUIBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Editor\Scripts\EditorDownloadProvider.cs">
-      <Link>Editor\Scripts\EditorDownloadProvider.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

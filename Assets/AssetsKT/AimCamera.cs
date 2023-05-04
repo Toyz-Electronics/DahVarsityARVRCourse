@@ -5,11 +5,13 @@ using UnityEngine;
 public class AimCamera : MonoBehaviour
 {
     public GameObject player;
-    Vector3 offset;
+    Vector3 offsetY;
+
     // Start is called before the first frame update
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        offsetY = transform.position - player.transform.position;
+        
     }
 
     // Update is called once per frame
@@ -20,12 +22,13 @@ public class AimCamera : MonoBehaviour
     private void LateUpdate()
     {
         Rotate();
-        transform.position = Vector3.Lerp(transform.position, (player.transform.position + offset), 1f);
+        transform.position = Vector3.Lerp(transform.position, (player.transform.position + offsetY), 1f);
         transform.LookAt(player.transform.position);
     }
 
     public void Rotate()
     {
-        offset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") , Vector3.up)*offset;
+        offsetY = Quaternion.AngleAxis(Input.GetAxis("Mouse X") , Vector3.up)* Quaternion.AngleAxis(Input.GetAxis("Mouse Y"), Vector3.right)*offsetY;
+        
     }
 }

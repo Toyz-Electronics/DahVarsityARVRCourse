@@ -8,22 +8,26 @@ public class PlayerController : MonoBehaviour
     private float horizontal;
     private float vertical;
     public float speed = 3.0f;
-    float vert ;
-    int comboCount=0;
-    Vector3 rotation;
+ 
     TeleporterController TC;
+    TeleportationIn TI;
+    TeleportationOut TO;
     [SerializeField]
     GameObject teleporter;
     private bool isPressed=false;
-    float lastClick=0;
+    private bool isRunning;
+    private bool isGrounded;
     Animator anim;
 
+    public GameObject topPlayer;
+    public GameObject bottomPlayer;
+    Rigidbody rb;
     [Header("Cameras")]
     public GameObject mainCamera;
     public GameObject aimCamera;
     public GameObject Initializer;
-    CameraInitalizer CI;
-    bool fall;
+
+    BoxCollider[] boxCol;
     [Header("Events")]
     public UnityEvent WalkingAnimation;
     public UnityEvent TeleportAnimation;
@@ -32,11 +36,17 @@ public class PlayerController : MonoBehaviour
     public UnityEvent RunningAnimation;
     public UnityEvent DodgeAnimation;
     public UnityEvent RollAnimation;
+    public UnityEvent RunJumpAnimation;
+    public UnityEvent JumpAnimation;
     // Start is called before the first frame update
     void Start()
     {
-        CI = Initializer.GetComponent<CameraInitalizer>();
+        rb = GetComponent<Rigidbody>();
+        boxCol = GetComponents<BoxCollider>();
+       
         TC = teleporter.GetComponent<TeleporterController>();
+        TI= topPlayer.GetComponent<TeleportationIn>();
+        TO = bottomPlayer.GetComponent<TeleportationOut>();
         anim = GetComponent<Animator>();
         //mainCamera.SetActive(true);
        // aimCamera.SetActive(false);
@@ -61,10 +71,12 @@ public class PlayerController : MonoBehaviour
                 //Walking Animation
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
+                    isRunning = true;
                     RunningAnimation.Invoke();
                 }
                 else
                 {
+                    isRunning = false;
                     WalkingAnimation.Invoke();
                 }
                 
@@ -73,7 +85,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-               
+                isRunning = false;
                 IdleAnimation.Invoke();
             
             }
@@ -83,21 +95,34 @@ public class PlayerController : MonoBehaviour
             {
                 DodgeAnimation.Invoke();
             }
-
-            /*if (anim.GetCurrentAnimatorStateInfo(0).IsName("Talking") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                comboCount = 0;
-                anim.SetInteger("comboCount", comboCount);
+                Debug.Log("Space is pressed");
+                if (isGrounded == true)
+                {
+                    if (isRunning)
+                    {
+                        RunJumpAnimation.Invoke();
+                    }
+                    else
+                    {
+                        JumpAnimation.Invoke();
+                        rb.AddForce(0, 5f, 0, ForceMode.Impulse);
+                        //rb.AddForce(Vector3.up * 1000f);
+                    }
+                    isGrounded = false;
+                }
+               
             }
-            */
         }
         else
         {
-           
-            transform.localRotation = aimCamera.transform.localRotation;//Quaternion.Euler(0, -turn.y*20f, 0);
+
+            transform.localRotation =aimCamera.transform.localRotation;  // aimCamera.transform.localRotation; //Quaternion.localEulerAngles(aimCamera.transform.localRotation.x, transform.localRotation.y, aimCamera.transform.localRotation.z);
+
 
         }
-      
+
         //Teleporting
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -105,31 +130,46 @@ public class PlayerController : MonoBehaviour
             if (isPressed == true)
             {
 
-               // mainCamera.SetActive(true);
-                //aimCamera.SetActive(false);
+
                 TeleportAnimation.Invoke();
                 StartCoroutine(ActivateTeleporter());
+                
                 isPressed = false;
-
-                //anim.SetBool("IsJumping", false);
-
+                TC.aim = false;
 
             }
             else
             {
                 AimAnimation.Invoke();
-                //mainCamera.SetActive(false);
-                //aimCamera.SetActive(true);
-                //anim.SetBool("IsTeleport", true);
+                TC.aim = true;
                 isPressed = true;
                
                
             }
-          
+           
+
             //Camera change
             //Spawn teleporter
         }
-       
+        if (TI.teleportedIn == true)
+        {
+            transform.position = TC.portal2.transform.position;
+            //RollAnimation.Invoke();
+            TI.teleportedIn = false;
+            TO.teleportedOut = false;
+        }
+        if(TO.teleportedOut == false)
+        {
+           transform.position = new Vector3( transform.position.x, transform.position.y+.1f, transform.position.z);
+            if (transform.position.y > .05f)
+            {
+                foreach (BoxCollider col in boxCol)
+                {
+                    col.enabled = true;
+                }
+            }
+        }
+        
 
     }
 
@@ -138,38 +178,33 @@ public class PlayerController : MonoBehaviour
     IEnumerator ActivateTeleporter()
     {
         
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(1f);
         TC.TeleporterPosition();
-
-    }
-        IEnumerator EndCombo(){
-        yield return new WaitForSeconds(3f);       anim.SetBool("IsPunching", false);
-        //comboCount = 0;
-        //anim.SetInteger("comboCount", comboCount);
-        /*comboCount = (comboCount > 3) ? 0 : comboCount+1;
-        anim.SetInteger("comboCount", comboCount);*/
-
-
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Here");
-
-        if (other.gameObject.tag == "teleporter")
+        foreach (BoxCollider col in boxCol)
         {
-           
-            transform.position = TC.portal2.transform.position;
-            RollAnimation.Invoke();
-           
-            
-
+            col.enabled = false;
         }
+       
+        
 
     }
-    private void FixedUpdate()
+   
+        IEnumerator EndCombo(){
+        yield return new WaitForSeconds(3f);       
+        anim.SetBool("IsPunching", false);
+      
+
+
+    }
+    private void OnCollisionEnter(Collision collision)
     {
 
-        
+        if (collision.gameObject.tag == "Ground")
+        {
+            Debug.Log("Here");
+            isGrounded = true;
+        }
     }
+
+
 }

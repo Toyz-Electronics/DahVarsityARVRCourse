@@ -56,251 +56,128 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AnimationUtils.cs">
-      <Link>Runtime\Scripts\AnimationUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\MorphTargetContext.cs">
-      <Link>Runtime\Scripts\MorphTargetContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\GltfCamera.cs">
-      <Link>Runtime\Scripts\Schema\GltfCamera.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\MaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\MaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\ConsoleLogger.cs">
-      <Link>Runtime\Scripts\Logging\ConsoleLogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparse.cs">
-      <Link>Runtime\Scripts\Schema\AccessorSparse.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferBones.cs">
-      <Link>Runtime\Scripts\VertexBufferBones.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Constants.cs">
       <Link>Runtime\Scripts\Schema\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\SamplerKey.cs">
-      <Link>Runtime\Scripts\SamplerKey.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialTransmission.cs">
-      <Link>Runtime\Scripts\Schema\MaterialTransmission.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\NameImportMethod.cs">
-      <Link>Runtime\Scripts\NameImportMethod.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Mesh.cs">
-      <Link>Runtime\Scripts\Schema\Mesh.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Accessor.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\Accessor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadContextBase.cs">
-      <Link>Runtime\Scripts\KtxLoadContextBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\AccessorSparse.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\AccessorSparse.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Image.cs">
       <Link>Runtime\Scripts\Schema\Image.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Root.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\Root.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialSheen.cs">
       <Link>Runtime\Scripts\Schema\MaterialSheen.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\JsonParser.cs">
-      <Link>Runtime\Scripts\JsonParser.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\MeshPrimitive.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\MeshPrimitive.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\IMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\IMaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureInfoExtension.cs">
-      <Link>Runtime\Scripts\Schema\TextureInfoExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\PrimitiveDracoCreateContext.cs">
-      <Link>Runtime\Scripts\PrimitiveDracoCreateContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IInstantiator.cs">
-      <Link>Runtime\Scripts\IInstantiator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Primitive.cs">
-      <Link>Runtime\Scripts\Primitive.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GameObjectSceneInstance.cs">
-      <Link>Runtime\Scripts\GameObjectSceneInstance.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\RenderPipelineUtils.cs">
-      <Link>Runtime\Scripts\RenderPipelineUtils.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\LightPunctualExtension.cs">
-      <Link>Runtime\Scripts\LightPunctualExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IGltfReadable.cs">
-      <Link>Runtime\Scripts\IGltfReadable.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\UninterruptedDefaultDeferAgent.cs">
-      <Link>Runtime\Scripts\UninterruptedDefaultDeferAgent.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\UninterruptedDeferAgent.cs">
       <Link>Runtime\Scripts\UninterruptedDeferAgent.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\ComponentType.cs">
-      <Link>Runtime\Scripts\ComponentType.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferConfig.cs">
-      <Link>Runtime\Scripts\VertexBufferConfig.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IGltfBuffers.cs">
-      <Link>Runtime\Scripts\IGltfBuffers.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Material.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\Material.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureExtension.cs">
-      <Link>Runtime\Scripts\Schema\TextureExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadContext.cs">
-      <Link>Runtime\Scripts\KtxLoadContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Scene.cs">
-      <Link>Runtime\Scripts\Schema\Scene.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\JsonWriter.cs">
-      <Link>Runtime\Scripts\Schema\JsonWriter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\DefaultDeferAgent.cs">
-      <Link>Runtime\Scripts\DefaultDeferAgent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Extensions.cs">
-      <Link>Runtime\Scripts\Extensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\NodeExtension.cs">
-      <Link>Runtime\Scripts\NodeExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Asset.cs">
-      <Link>Runtime\Scripts\Schema\Asset.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparseIndices.cs">
-      <Link>Runtime\Scripts\Schema\AccessorSparseIndices.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Skin.cs">
-      <Link>Runtime\Scripts\Schema\Skin.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureInfo.cs">
-      <Link>Runtime\Scripts\Schema\TextureInfo.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\UriHelper.cs">
       <Link>Runtime\Scripts\UriHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\RootExtension.cs">
-      <Link>Runtime\Scripts\RootExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NamedObject.cs">
-      <Link>Runtime\Scripts\Schema\NamedObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialPbrMetallicRoughness.cs">
-      <Link>Runtime\Scripts\Schema\MaterialPbrMetallicRoughness.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\Constants.cs">
-      <Link>Runtime\Scripts\Material\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\BuiltInMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\BuiltInMaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\TimeBudgetPerFrameDeferAgent.cs">
-      <Link>Runtime\Scripts\TimeBudgetPerFrameDeferAgent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MeshGpuInstancing.cs">
-      <Link>Runtime\Scripts\Schema\MeshGpuInstancing.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\CustomHeaderDownloadProvider.cs">
-      <Link>Runtime\Scripts\Loading\CustomHeaderDownloadProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\TextureDownload.cs">
-      <Link>Runtime\Scripts\TextureDownload.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\DefaultDownloadProvider.cs">
-      <Link>Runtime\Scripts\Loading\DefaultDownloadProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfImport.cs">
-      <Link>Runtime\Scripts\GltfImport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\MaterialExtension.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\MaterialExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\OcclusionTextureInfo.cs">
-      <Link>Runtime\Scripts\Schema\OcclusionTextureInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\NamedObject.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\NamedObject.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Texture.cs">
       <Link>Runtime\Scripts\Schema\Texture.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfAssetBase.cs">
-      <Link>Runtime\Scripts\GltfAssetBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparseValues.cs">
-      <Link>Runtime\Scripts\Schema\AccessorSparseValues.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfGlobals.cs">
       <Link>Runtime\Scripts\GltfGlobals.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\LightsPunctual.cs">
-      <Link>Runtime\Scripts\Schema\LightsPunctual.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\PrimitiveCreateContext.cs">
-      <Link>Runtime\Scripts\PrimitiveCreateContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\PbrSpecularGlossiness.cs">
-      <Link>Runtime\Scripts\Schema\PbrSpecularGlossiness.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\DontDestroyOnLoad.cs">
-      <Link>Runtime\Scripts\DontDestroyOnLoad.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GameObjectInstantiator.cs">
-      <Link>Runtime\Scripts\GameObjectInstantiator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NodeLightsPunctual.cs">
-      <Link>Runtime\Scripts\Schema\NodeLightsPunctual.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Buffer.cs">
       <Link>Runtime\Scripts\Schema\Buffer.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MeshPrimitive.cs">
-      <Link>Runtime\Scripts\Schema\MeshPrimitive.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\ICodeLogger.cs">
+      <Link>Runtime\Scripts\Logging\ICodeLogger.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AnimationMethod.cs">
-      <Link>Runtime\Scripts\AnimationMethod.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureTransform.cs">
+      <Link>Runtime\Scripts\Schema\TextureTransform.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IDeferAgent.cs">
-      <Link>Runtime\Scripts\IDeferAgent.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\SamplerKey.cs">
+      <Link>Runtime\Scripts\SamplerKey.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\ImageCreateContext.cs">
-      <Link>Runtime\Scripts\ImageCreateContext.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\NameImportMethod.cs">
+      <Link>Runtime\Scripts\NameImportMethod.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\InstantiationSettings.cs">
-      <Link>Runtime\Scripts\InstantiationSettings.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\MeshPrimitive.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\MeshPrimitive.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialClearCoat.cs">
-      <Link>Runtime\Scripts\Schema\MaterialClearCoat.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\ComponentType.cs">
+      <Link>Runtime\Scripts\ComponentType.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Extensions.cs">
+      <Link>Runtime\Scripts\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\MaterialExtension.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\MaterialExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\LightsPunctual.cs">
+      <Link>Runtime\Scripts\Schema\LightsPunctual.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\LogMessages.cs">
       <Link>Runtime\Scripts\Logging\LogMessages.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\SceneObjectCreation.cs">
       <Link>Runtime\Scripts\SceneObjectCreation.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\CollectingLogger.cs">
+      <Link>Runtime\Scripts\Logging\CollectingLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\BuiltInShaderGraphMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\BuiltInShaderGraphMaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\IDownload.cs">
+      <Link>Runtime\Scripts\Loading\IDownload.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialTransmission.cs">
+      <Link>Runtime\Scripts\Schema\MaterialTransmission.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Asset.cs">
+      <Link>Runtime\Scripts\Schema\Asset.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\OcclusionTextureInfo.cs">
+      <Link>Runtime\Scripts\Schema\OcclusionTextureInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AnimationMethod.cs">
+      <Link>Runtime\Scripts\AnimationMethod.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\AccessorSparse.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\AccessorSparse.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Scene.cs">
+      <Link>Runtime\Scripts\Schema\Scene.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialPbrMetallicRoughness.cs">
+      <Link>Runtime\Scripts\Schema\MaterialPbrMetallicRoughness.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Accessor.cs">
+      <Link>Runtime\Scripts\Schema\Accessor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\ShaderGraphMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\ShaderGraphMaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Mesh.cs">
+      <Link>Runtime\Scripts\Schema\Mesh.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureInfoExtension.cs">
+      <Link>Runtime\Scripts\Schema\TextureInfoExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\RootExtension.cs">
+      <Link>Runtime\Scripts\RootExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\PrimitiveCreateContext.cs">
+      <Link>Runtime\Scripts\PrimitiveCreateContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IDeferAgent.cs">
+      <Link>Runtime\Scripts\IDeferAgent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferTexCoords.cs">
+      <Link>Runtime\Scripts\VertexBufferTexCoords.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AccessorData.cs">
+      <Link>Runtime\Scripts\AccessorData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GlbBinChunk.cs">
+      <Link>Runtime\Scripts\GlbBinChunk.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\UninterruptedDefaultDeferAgent.cs">
+      <Link>Runtime\Scripts\UninterruptedDefaultDeferAgent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\PbrSpecularGlossiness.cs">
+      <Link>Runtime\Scripts\Schema\PbrSpecularGlossiness.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\BufferView.cs">
       <Link>Runtime\Scripts\Schema\BufferView.cs</Link>
@@ -311,32 +188,134 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\GltfAnimation.cs">
       <Link>Runtime\Scripts\Schema\GltfAnimation.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexStructs.cs">
-      <Link>Runtime\Scripts\VertexStructs.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialExtension.cs">
+      <Link>Runtime\Scripts\Schema\MaterialExtension.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Accessor.cs">
-      <Link>Runtime\Scripts\Schema\Accessor.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Sampler.cs">
+      <Link>Runtime\Scripts\Schema\Sampler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\IMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\IMaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\RenderPipelineUtils.cs">
+      <Link>Runtime\Scripts\RenderPipelineUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\JsonWriter.cs">
+      <Link>Runtime\Scripts\Schema\JsonWriter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\DefaultDeferAgent.cs">
+      <Link>Runtime\Scripts\DefaultDeferAgent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureInfo.cs">
+      <Link>Runtime\Scripts\Schema\TextureInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfAssetBase.cs">
+      <Link>Runtime\Scripts\GltfAssetBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\DontDestroyOnLoad.cs">
+      <Link>Runtime\Scripts\DontDestroyOnLoad.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialClearCoat.cs">
+      <Link>Runtime\Scripts\Schema\MaterialClearCoat.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Mathematics.cs">
       <Link>Runtime\Scripts\Mathematics.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferTexCoords.cs">
-      <Link>Runtime\Scripts\VertexBufferTexCoords.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadNativeContext.cs">
+      <Link>Runtime\Scripts\KtxLoadNativeContext.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\RootExtension.cs">
-      <Link>Runtime\Scripts\Schema\RootExtension.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Mesh.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\Mesh.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\ICodeLogger.cs">
-      <Link>Runtime\Scripts\Logging\ICodeLogger.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Jobs.cs">
+      <Link>Runtime\Scripts\Jobs.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NormalTextureInfo.cs">
+      <Link>Runtime\Scripts\Schema\NormalTextureInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AnimationUtils.cs">
+      <Link>Runtime\Scripts\AnimationUtils.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\ConsoleLogger.cs">
+      <Link>Runtime\Scripts\Logging\ConsoleLogger.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadContextBase.cs">
+      <Link>Runtime\Scripts\KtxLoadContextBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureExtension.cs">
+      <Link>Runtime\Scripts\Schema\TextureExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparseIndices.cs">
+      <Link>Runtime\Scripts\Schema\AccessorSparseIndices.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NamedObject.cs">
+      <Link>Runtime\Scripts\Schema\NamedObject.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\DefaultDownloadProvider.cs">
+      <Link>Runtime\Scripts\Loading\DefaultDownloadProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MeshPrimitive.cs">
+      <Link>Runtime\Scripts\Schema\MeshPrimitive.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexStructs.cs">
+      <Link>Runtime\Scripts\VertexStructs.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfAsset.cs">
       <Link>Runtime\Scripts\GltfAsset.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\GltfCamera.cs">
+      <Link>Runtime\Scripts\Schema\GltfCamera.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferBones.cs">
+      <Link>Runtime\Scripts\VertexBufferBones.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IGltfReadable.cs">
+      <Link>Runtime\Scripts\IGltfReadable.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadContext.cs">
+      <Link>Runtime\Scripts\KtxLoadContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparseValues.cs">
+      <Link>Runtime\Scripts\Schema\AccessorSparseValues.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferConfigBase.cs">
       <Link>Runtime\Scripts\VertexBufferConfigBase.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Material.cs">
-      <Link>Runtime\Scripts\Schema\Material.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Root.cs">
+      <Link>Runtime\Scripts\Schema\Root.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\JsonParser.cs">
+      <Link>Runtime\Scripts\JsonParser.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GltfImport.cs">
+      <Link>Runtime\Scripts\GltfImport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GameObjectInstantiator.cs">
+      <Link>Runtime\Scripts\GameObjectInstantiator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\InstantiationSettings.cs">
+      <Link>Runtime\Scripts\InstantiationSettings.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\MaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\MaterialGenerator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\LightPunctualExtension.cs">
+      <Link>Runtime\Scripts\LightPunctualExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Material.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\Material.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MeshGpuInstancing.cs">
+      <Link>Runtime\Scripts\Schema\MeshGpuInstancing.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\BuiltInMaterialGenerator.cs">
+      <Link>Runtime\Scripts\Material\BuiltInMaterialGenerator.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\ImportSettings.cs">
       <Link>Runtime\Scripts\ImportSettings.cs</Link>
@@ -347,56 +326,77 @@
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferColors.cs">
       <Link>Runtime\Scripts\VertexBufferColors.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\KtxLoadNativeContext.cs">
-      <Link>Runtime\Scripts\KtxLoadNativeContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\ShaderGraphMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\ShaderGraphMaterialGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialExtension.cs">
-      <Link>Runtime\Scripts\Schema\MaterialExtension.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\AccessorData.cs">
-      <Link>Runtime\Scripts\AccessorData.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Node.cs">
       <Link>Runtime\Scripts\Schema\Node.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Logging\CollectingLogger.cs">
-      <Link>Runtime\Scripts\Logging\CollectingLogger.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\MorphTargetContext.cs">
+      <Link>Runtime\Scripts\MorphTargetContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Root.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\Root.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IInstantiator.cs">
+      <Link>Runtime\Scripts\IInstantiator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Primitive.cs">
+      <Link>Runtime\Scripts\Primitive.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\VertexBufferConfig.cs">
+      <Link>Runtime\Scripts\VertexBufferConfig.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\Constants.cs">
+      <Link>Runtime\Scripts\Material\Constants.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\TimeBudgetPerFrameDeferAgent.cs">
+      <Link>Runtime\Scripts\TimeBudgetPerFrameDeferAgent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\CustomHeaderDownloadProvider.cs">
+      <Link>Runtime\Scripts\Loading\CustomHeaderDownloadProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NodeLightsPunctual.cs">
+      <Link>Runtime\Scripts\Schema\NodeLightsPunctual.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\MaterialUnlit.cs">
       <Link>Runtime\Scripts\Schema\MaterialUnlit.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Jobs.cs">
-      <Link>Runtime\Scripts\Jobs.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\AccessorSparse.cs">
+      <Link>Runtime\Scripts\Schema\AccessorSparse.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\TextureTransform.cs">
-      <Link>Runtime\Scripts\Schema\TextureTransform.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Accessor.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\Accessor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Root.cs">
-      <Link>Runtime\Scripts\Schema\Root.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GameObjectSceneInstance.cs">
+      <Link>Runtime\Scripts\GameObjectSceneInstance.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\NormalTextureInfo.cs">
-      <Link>Runtime\Scripts\Schema\NormalTextureInfo.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Skin.cs">
+      <Link>Runtime\Scripts\Schema\Skin.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Sampler.cs">
-      <Link>Runtime\Scripts\Schema\Sampler.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\TextureDownload.cs">
+      <Link>Runtime\Scripts\TextureDownload.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\Mesh.cs">
-      <Link>Runtime\Scripts\Schema\FakeSchema\Mesh.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\ImageCreateContext.cs">
+      <Link>Runtime\Scripts\ImageCreateContext.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Material\BuiltInShaderGraphMaterialGenerator.cs">
-      <Link>Runtime\Scripts\Material\BuiltInShaderGraphMaterialGenerator.cs</Link>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\RootExtension.cs">
+      <Link>Runtime\Scripts\Schema\RootExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\PrimitiveDracoCreateContext.cs">
+      <Link>Runtime\Scripts\PrimitiveDracoCreateContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\IGltfBuffers.cs">
+      <Link>Runtime\Scripts\IGltfBuffers.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\NodeExtension.cs">
+      <Link>Runtime\Scripts\NodeExtension.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\FakeSchema\NamedObject.cs">
+      <Link>Runtime\Scripts\Schema\FakeSchema\NamedObject.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Schema\Material.cs">
+      <Link>Runtime\Scripts\Schema\Material.cs</Link>
     </Compile>
     <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GameObjectBoundsInstantiator.cs">
       <Link>Runtime\Scripts\GameObjectBoundsInstantiator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\GlbBinChunk.cs">
-      <Link>Runtime\Scripts\GlbBinChunk.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\ktpen\OneDrive\Documents\RPM_FIles\glTFast-main\Runtime\Scripts\Loading\IDownload.cs">
-      <Link>Runtime\Scripts\Loading\IDownload.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

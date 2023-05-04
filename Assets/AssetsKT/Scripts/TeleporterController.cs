@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class TeleporterController : MonoBehaviour
 {
-    private float horizontal;
-    private float vertical;
+   
     public float speed;
     public float smoothTime;
     [SerializeField]
@@ -27,28 +26,58 @@ public class TeleporterController : MonoBehaviour
     public GameObject initializer;
 
     [Header("Portal Objects")]
+    public GameObject visual;
     public GameObject portal1;
     public GameObject portal2;
-   // public GameObject initializer;
+    // public GameObject initializer;
 
-
+    public bool aim = false;
     Ray ray;
     public LayerMask layer;
-    public float maxDistance=90;
+    public float maxDistance=500;
+
+    private void Awake()
+    {
+        portal1.SetActive(false);
+        portal2.SetActive(false);
+
+    }
     // Start is called before the first frame update
     void Start()
     {
         portalEffect = GetComponent<PortalEffect>();
-        portal1.SetActive(false);
-        portal2.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (aim)
+        {
+            
+            VisualTeleport();
+        }
+    }
+    public void VisualTeleport()
+    {
+        ray = new Ray(initializer.transform.position, player.transform.forward);
+        Debug.DrawRay(initializer.transform.position, player.transform.forward, Color.green);
+        if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, layer))
+        {
+            visual.SetActive(true);
+            visual.transform.position = new Vector3(hit.point.x, visual.transform.position.y, hit.point.z);
+            float distance = (Vector3.Distance(player.transform.position, hit.point));
+            //visual.transform.localScale = new Vector3(distance, distance, 2f)*.5f;
+            //Instantiate(portal1, player.transform.position + playerDirection * 3, transform.rotation);
+            //Instantiate(portal2, hit.collider.transform.position, transform.rotation);
+        }
+        else
+        {
+            visual.SetActive(false);
+        }
+        
     }
     public void TeleporterPosition(){
+        visual.SetActive(false);
         ray = new Ray(initializer.transform.position, player.transform.forward);
         portal1.transform.localRotation = player.transform.localRotation;
         portal2.transform.localRotation = player.transform.localRotation;
@@ -56,9 +85,9 @@ public class TeleporterController : MonoBehaviour
         playerDirection.Normalize();
      
         Debug.Log(playerDirection);
- 
-        portal1.transform.position = ray.GetPoint(2);
-        portal2.transform.position = ray.GetPoint(maxDistance);
+
+        portal1.transform.position = player.transform.position;
+        portal2.transform.position = visual.transform.position;
         portal1.SetActive(true);
         portal2.SetActive(true);
         portalEffect.grow = true;
@@ -106,52 +135,5 @@ public class TeleporterController : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, 0.2f, transform.position.z);
     }
-    private void OnCollisionExit(Collision collision)
-    {
-       
-    }
-
-  
-    void Visualize(Vector3 vo, Vector3 finalPos)
-    {
-        lr.positionCount = Mathf.CeilToInt(LinePoints / TimeBetweenPoints) + 1;
-        for (int i = 0; i < LinePoints; i++)
-        {
-            Vector3 pos = CalculatePosInTime(vo, (i / (float)LinePoints) *TimeBetweenPoints);
-            lr.SetPosition(i, pos);
-        }
-
-       lr.SetPosition(LinePoints, finalPos);
-    }
-    
-    Vector3 CalculateVelocty(Vector3 target, Vector3 origin, float time)
-    {
-        Vector3 distance = target - origin;
-        Vector3 distanceXz = distance;
-        distanceXz.y = 0f;
- 
-        float sY = distance.y;
-        float sXz = distanceXz.magnitude;
- 
-        float Vxz = sXz / time;
-        float Vy = (sY / time) + (0.5f * Mathf.Abs(Physics.gravity.y) * time);
- 
-        Vector3 result = distanceXz.normalized;
-        result *= Vxz;
-        result.y = Vy;
- 
-        return result;
-    }
-    Vector3 CalculatePosInTime(Vector3 vo, float time)
-    {
-        Vector3 Vxz = vo;
-        Vxz.y = 0f;
-
-        Vector3 result = RealeasePos.position + vo * time;
-        float sY = (-0.5f * Mathf.Abs(Physics.gravity.y) * (time * time)) + (vo.y * time) + RealeasePos.position.y;
-
-        result.y = sY;
-
-        return result;
-    }
+   
 }
