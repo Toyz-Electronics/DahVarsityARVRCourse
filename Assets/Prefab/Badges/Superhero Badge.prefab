@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ANTI BULLYYING BADGE
+  m_text: ANTI BULLYING BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d6baaecb6f6136f40be1818517b3fda8, type: 2}
   m_sharedMaterial: {fileID: -1835070409423986192, guid: d6baaecb6f6136f40be1818517b3fda8, type: 2}

@@ -176,10 +176,10 @@
                 {
                     "name": "",
                     "id": "d1d171b6-19d8-47a6-ba3a-71b6a8e7b3c0",
-                    "path": "<Gamepad>/dpad",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "InvertVector2(invertX=false),StickDeadzone,ScaleVector2(x=2,y=2)",
-                    "groups": "Gamepad;Xbox Controller;PS4 Controller",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller;KeyboardMouse;Touchscreen",
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -331,6 +331,33 @@
                     "type": "PassThrough",
                     "id": "b15fdc1d-bd56-451f-b253-9fbed5df4e5e",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Point1",
+                    "type": "PassThrough",
+                    "id": "3027d1f8-468e-4b6e-bd6b-8a5ba97f49f8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Click1",
+                    "type": "PassThrough",
+                    "id": "d99bd5d9-572f-4523-9111-56b5cd605717",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scroll",
+                    "type": "PassThrough",
+                    "id": "8f9b6cac-80f1-482e-aa55-743fc82071a8",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -662,18 +689,7 @@
                     "path": "<VirtualMouse>/position",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
-                    "action": "Point",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "429defa4-b501-41ce-9bfb-54b1bcc0a386",
-                    "path": "<Gamepad>/rightStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller;KeyboardMouse;Touchscreen",
                     "action": "Point",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -728,40 +744,7 @@
                     "path": "<VirtualMouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
-                    "action": "Click",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e783bb38-67bb-4643-8b43-a1391fe7ccad",
-                    "path": "<Gamepad>/rightStickPress",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
-                    "action": "Click",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "56133724-8fcb-41ce-b994-8f8d60d98d42",
-                    "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad;KeyboardMouse;Xbox Controller;PS4 Controller;Touchscreen",
-                    "action": "Click",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6deac8fe-72bc-402a-ad8c-2d2c76db1f72",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller;KeyboardMouse;Touchscreen",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -829,6 +812,193 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91f52300-bee1-404b-b68e-e971a85e8fb9",
+                    "path": "<VirtualMouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff570fe7-c3b0-48f2-a1ef-62f1f70ad8d5",
+                    "path": "<VirtualMouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f9cf28a-a6bb-4399-9abd-56eaad000bdb",
+                    "path": "<VirtualMouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Car",
+            "id": "29e72d02-1eab-401d-a8ac-b667a2e2b7ba",
+            "actions": [
+                {
+                    "name": "Accelerate",
+                    "type": "Button",
+                    "id": "06b16760-a0c6-4bc4-a8db-4a5937e22fa5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Brake",
+                    "type": "Button",
+                    "id": "3a101ed0-7818-4ee1-9c4a-98694762d6f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reverse",
+                    "type": "Button",
+                    "id": "3432e5ec-897c-4059-9858-547d3b500020",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Steer",
+                    "type": "Value",
+                    "id": "ce150a65-a249-4537-9bcf-a63e20d6c07d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b99312e4-08cf-4845-b712-60ad00dc1ccc",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9814ffc7-8977-4d62-93f8-38debe850609",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff2aa936-febe-4364-b4c0-8121c295ca00",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller;Touchscreen;KeyboardMouse",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b2b58dc-3ae0-4054-a62a-3cc581012232",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4bbe0557-5c6f-42c1-b731-ae06e0c264bb",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Reverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2015352-f793-4b1f-9a19-e2488435b4ee",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Reverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd1741b1-eb75-4e74-bb72-7c8000e2d069",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad;Xbox Controller;PS4 Controller;Touchscreen",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b9c939a-911c-4abf-b7f2-1ecf68b266e4",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ac8b046-f73f-48c5-810b-37500b5d64b5",
+                    "path": "<Pointer>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd1b26ab-818c-4952-97e3-1538c3fa7f3c",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

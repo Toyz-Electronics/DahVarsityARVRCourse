@@ -94,8 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7825374990175108135}
   - component: {fileID: 7825374990175108129}
-  - component: {fileID: 7825374990175108134}
   - component: {fileID: 545647997}
+  - component: {fileID: 6528171397241274213}
   m_Layer: 0
   m_Name: RPM Camera Rig
   m_TagString: Untagged
@@ -135,22 +135,6 @@ MonoBehaviour:
   target: {fileID: 0}
   cameraDistance: -3
   followOnStart: 1
---- !u!114 &7825374990175108134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7825374990175108132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 731873f07a43384478f87bb5e9cf0f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInput: {fileID: 0}
-  minRotationX: -50
-  maxRotationX: 50
-  smoothDamp: 0
 --- !u!114 &545647997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,3 +150,19 @@ MonoBehaviour:
   cursorLockMode: 1
   hideCursor: 1
   applyOnStart: 1
+--- !u!114 &6528171397241274213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7825374990175108132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91563e2d7619d5b48a5ae6f4fdf77cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 0}
+  minRotationX: -60
+  maxRotationX: 50
+  smoothDamp: 0
