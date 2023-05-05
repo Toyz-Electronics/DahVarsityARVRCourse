@@ -74,6 +74,21 @@
      <Compile Include="Assets\HideAvatar2.cs" />
      <Compile Include="Assets\hybridThirdPersonController.cs" />
      <Compile Include="Assets\Scripts\button_hover_display.cs" />
+     <Compile Include="Assets\Scripts\ComboController.cs" />
+     <Compile Include="Assets\AssetsKT\BallMovement.cs" />
+     <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
+     <Compile Include="Assets\AssetsKT\AnimationController.cs" />
+     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
+     <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
+     <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
+     <Compile Include="Assets\AssetsKT\ComboController.cs" />
+     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
+     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
+     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
+     <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
+     <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
+     <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -956,6 +971,10 @@
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{6c223a82-6ba1-77a6-a078-7bac766b555c}</Project>
       <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="WebView.csproj">
+      <Project>{f5eed4a9-f707-d846-b091-22e323b1c81d}</Project>
+      <Name>WebView</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
