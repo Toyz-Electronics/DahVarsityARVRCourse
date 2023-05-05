@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using ReadyPlayerMe.AvatarLoader;
+using ReadyPlayerMe.Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,7 +36,7 @@ namespace ReadyPlayerMe
             foreach (var url in urlSet)
             {
                 loading = true;
-                var loader = new AvatarLoader();
+                var loader = new AvatarObjectLoader();
                 loader.OnCompleted += (sender, args) =>
                 {
                     loading = false;
