@@ -8,7 +8,7 @@ public class TeleKinesis : MonoBehaviour
     public float forceStrength = 10f;
     public float holdingDistance = 1.5f;
     public float moveSpeed = 2f;
-    public float slamForce = 50f;
+    public float slamForce = 500f;
     public KeyCode slamKey = KeyCode.Alpha5;
     public float liftingSpeed = 0.5f;
     public Transform attackTarget;
@@ -50,7 +50,7 @@ public class TeleKinesis : MonoBehaviour
     if (isHoldingObject)
     {
         Vector3 targetPosition = mainCamera.transform.position + mainCamera.transform.forward * holdingDistance;
-
+            Debug.Log("holdingObject");
         float horizontal = Input.GetAxis("Horizontal") * distanceFactor;
         float vertical = Input.GetAxis("Vertical") * distanceFactor;
 
@@ -86,7 +86,8 @@ private IEnumerator HandleAlpha1Input()
 
         if (Physics.Raycast(ray, out hit, maxDistance, layerMask))
         {
-            if (hit.collider.GetComponent<Rigidbody>() != null)
+                Debug.Log("hit something");
+                if (hit.collider.GetComponent<Rigidbody>() != null)
             {
                 Debug.Log("Object selected");
                 isHoldingObject = true;
@@ -164,9 +165,9 @@ private void RestoreObjectScale()
 private void SlamObject()
 {
     Debug.Log("Object slammed");
+    selectedObject.useGravity = true;
     selectedObject.AddForce(Vector3.down * slamForce, ForceMode.Impulse);
     isHoldingObject = false;
-    selectedObject.useGravity = true;
     selectedObject.transform.localScale = originalScale; // Restore the original scale
     selectedObject = null;
 }

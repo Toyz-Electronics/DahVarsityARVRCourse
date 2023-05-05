@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ReadyPlayerMe.QuickStart
 {
-    [RequireComponent(typeof(ThirdPersonMovement), typeof(PlayerInput))]
+    [RequireComponent(typeof(ThirdPersonMovementAashish), typeof(PlayerInput))]
     public class ThirdPersonControllerAashish : MonoBehaviour
     {
         private const float FALL_TIMEOUT = 0.15f;
@@ -18,7 +18,7 @@ namespace ReadyPlayerMe.QuickStart
         private Vector3 moveVector;
         private GameObject avatar;
         private ThirdPersonMovementAashish thirdPersonMovement;
-        private PlayerInputAashish playerInput;
+        private PlayerInput playerInput;
 
         private float fallTimeoutDelta;
 
@@ -29,7 +29,7 @@ namespace ReadyPlayerMe.QuickStart
         private void Init()
         {
             thirdPersonMovement = GetComponent<ThirdPersonMovementAashish>();
-            playerInput = GetComponent<PlayerInputAashish>();
+            playerInput = GetComponent<PlayerInput>();
             playerInput.OnJumpPress += OnJump;
             isInitialized = true;
         }

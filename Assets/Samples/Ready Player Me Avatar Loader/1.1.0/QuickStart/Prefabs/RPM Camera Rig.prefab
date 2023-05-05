@@ -93,9 +93,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7825374990175108135}
-  - component: {fileID: 7825374990175108129}
-  - component: {fileID: 545647997}
-  - component: {fileID: 6528171397241274213}
+  - component: {fileID: 8889415548601743897}
+  - component: {fileID: 5807901641942728980}
+  - component: {fileID: 382691874863585273}
   m_Layer: 0
   m_Name: RPM Camera Rig
   m_TagString: Untagged
@@ -119,7 +119,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7825374990175108129
+--- !u!114 &8889415548601743897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,41 +128,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 7825374990175108132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe759d8a0e88b174a8b7cd5f3d0da425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCamera: {fileID: 7825374989609610539}
-  target: {fileID: 0}
-  cameraDistance: -3
-  followOnStart: 1
---- !u!114 &545647997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7825374990175108132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7a0f2cabd18c64dbdec82b601c0b57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursorLockMode: 1
-  hideCursor: 1
-  applyOnStart: 1
---- !u!114 &6528171397241274213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7825374990175108132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91563e2d7619d5b48a5ae6f4fdf77cd5, type: 3}
+  m_Script: {fileID: 11500000, guid: 15451ba1064ce3849a7a92c1d328d164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 0}
   minRotationX: -60
   maxRotationX: 50
   smoothDamp: 0
+--- !u!114 &5807901641942728980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7825374990175108132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c3eb10010acea4992d87686c65a51b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  target: {fileID: 0}
+  cameraDistance: -2.4
+  followOnStart: 1
+--- !u!114 &382691874863585273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7825374990175108132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150ea5280ef9e1a43854448ec9a9f74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorLockMode: 0
+  hideCursor: 1
+  applyOnStart: 1

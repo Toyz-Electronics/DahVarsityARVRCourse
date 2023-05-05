@@ -62,7 +62,7 @@ namespace ReadyPlayerMe.QuickStart
             avatar.transform.localPosition = avatarPositionOffset;
             avatar.transform.localRotation = Quaternion.Euler(0, 0, 0);
             
-            var controller = GetComponent<ThirdPersonController>();
+            var controller = GetComponent<ThirdPersonControllerAashish>();
             if (controller != null)
             {
                 controller.Setup(avatar, animatorController);
