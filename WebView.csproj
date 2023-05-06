@@ -315,9 +315,12 @@
     </Reference>
     <Reference Include="UnityEditor.UWP.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Microsoft.MixedReality.Input.DotNet">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\PackageCache\com.microsoft.mixedreality.input@c707ff4d69e7\Plugins\Windows\Microsoft.MixedReality.Input.DotNet.dll</HintPath>
+=======
+>>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>

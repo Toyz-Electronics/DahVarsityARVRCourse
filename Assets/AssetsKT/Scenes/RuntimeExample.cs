@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 ﻿using ReadyPlayerMe.Core;
 using ReadyPlayerMe.AvatarLoader;
 using UnityEngine;
+=======
+﻿using UnityEngine;
+using ReadyPlayerMe.Core;
+using ReadyPlayerMe.AvatarLoader;
+>>>>>>> Stashed changes
 
 namespace ReadyPlayerMe
 {
