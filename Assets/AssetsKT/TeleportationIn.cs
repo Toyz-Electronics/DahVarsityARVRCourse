@@ -5,11 +5,11 @@ using UnityEngine;
 public class TeleportationIn : MonoBehaviour
 {
 
-    public bool teleportedIn=false;
+    public bool teleportedIn;
     // Start is called before the first frame update
     void Start()
     {
-
+        teleportedIn = true;
     }
 
     // Update is called once per frame
