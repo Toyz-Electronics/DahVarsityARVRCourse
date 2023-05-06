@@ -85,6 +85,7 @@
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
      <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
      <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
+     <Compile Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\Example_02\InstanceExample.cs" />
      <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
      <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
      <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
@@ -103,6 +104,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\Example_02\Help Readme SOS.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -116,6 +118,7 @@
      <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
      <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
      <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\_FAQ - Informations\Help Readme SOS.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.1.0\QuickStart\Animations\license.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -978,6 +981,10 @@
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{0ecab066-78aa-7571-a750-8060be6fcca0}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ReadyPlayerMe.csproj">
+      <Project>{328e1be5-a8e3-4229-bfd4-b7b8e1d7c876}</Project>
+      <Name>ReadyPlayerMe</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{6c223a82-6ba1-77a6-a078-7bac766b555c}</Project>
