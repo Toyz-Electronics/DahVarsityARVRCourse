@@ -3,6 +3,10 @@ using System.Collections;
 
 public class TeleKinesis : MonoBehaviour
 {
+    public Material laserMaterial;
+    private LineRenderer laserLineRenderer;
+    private bool isCastingBeam;
+
     public Camera mainCamera;
     public float maxDistance = 10f;
     public float forceStrength = 10f;
@@ -39,6 +43,13 @@ public class TeleKinesis : MonoBehaviour
         {
             mainCamera = Camera.main;
         }
+          // Initialize the laser line renderer
+    laserLineRenderer = gameObject.AddComponent<LineRenderer>();
+    laserLineRenderer.material = laserMaterial;
+    laserLineRenderer.widthCurve = AnimationCurve.Constant(0, 1, 0.05f); // Set the line width to 0.05
+    laserLineRenderer.positionCount = 2;
+    laserLineRenderer.enabled = false; // Hide the laser line by default
+
     }
 
    
@@ -47,7 +58,15 @@ public class TeleKinesis : MonoBehaviour
     
     if (inputDelayCoroutine == null && Input.GetKeyDown(KeyCode.Alpha1))
     {
+        isCastingBeam = true;
+
         inputDelayCoroutine = StartCoroutine(HandleAlpha1Input());
+    }
+
+ if (Input.GetKeyUp(KeyCode.Alpha1))
+    {
+        isCastingBeam = false;
+        laserLineRenderer.enabled = false;
     }
 
     if (isHoldingObject)
@@ -82,6 +101,10 @@ public class TeleKinesis : MonoBehaviour
             headParticleSystem.transform.position = Vector3.Lerp(headParticleSystem.transform.position, selectedObject.transform.position, Time.deltaTime * moveSpeed);
         }
     }
+       else if (isCastingBeam)
+    {
+        DrawLaserBeamWhenNotHoldingObject();
+    }
 }
 private IEnumerator HandleAlpha1Input()
 {
@@ -97,9 +120,9 @@ private IEnumerator HandleAlpha1Input()
             Rigidbody hitRigidbody = hit.collider.GetComponent<Rigidbody>();
             if (hitRigidbody == null)
             {
-                // If the hit object doesn't have a Rigidbody, stop processing the input
                 yield break;
             }
+
 
             headParticleSystem = Instantiate(particleSystemPrefab, characterHeadTransform.position, Quaternion.identity, characterHeadTransform);
             CurvedParticleMotion particleMotion = headParticleSystem.GetComponent<CurvedParticleMotion>();
@@ -131,6 +154,9 @@ private IEnumerator HandleAlpha1Input()
             {
                 Destroy(headParticleSystem);
             }
+
+            // Hide the laser beam when the object is picked up
+            laserLineRenderer.enabled = false;
         }
     }
     else
@@ -152,6 +178,7 @@ private IEnumerator HandleAlpha1Input()
     inputDelayCoroutine = null;
 }
 
+
 private IEnumerator LiftObject(Rigidbody obj)
 {
     float elapsedTime = 0f;
@@ -163,14 +190,17 @@ private IEnumerator LiftObject(Rigidbody obj)
     while (elapsedTime < liftingSpeed)
     {
         float t = elapsedTime / liftingSpeed;
-        t = t * t * t * (t * (6f * t - 15f) + 10f); // Smoother step function (smoothstep)
+        t = t * t * t * (t * (6f * t - 15f) + 10f); 
         obj.position = Vector3.Lerp(startPosition, targetPosition, t);
+        UpdateLaserBeam(mainCamera.transform.position, obj.position); 
         elapsedTime += Time.deltaTime;
         yield return null;
     }
 
     obj.position = targetPosition;
+    laserLineRenderer.enabled = false; 
 }
+
 
 private IEnumerator AttackObject(Rigidbody obj, Transform target)
 {
@@ -206,4 +236,42 @@ private void SlamObject()
     selectedObject.transform.localScale = originalScale; // Restore the original scale
     selectedObject = null;
 }
+
+private void DrawLaserBeamWhenNotHoldingObject()
+{
+    RaycastHit hit;
+    Transform characterHeadTransform = mainCamera.transform;
+    Ray ray = new Ray(characterHeadTransform.position, characterHeadTransform.forward);
+    int layerMask = ~LayerMask.GetMask("Ignore Raycast");
+
+    if (Physics.Raycast(ray, out hit, maxDistance, layerMask))
+    {
+        // Draw the laser beam
+        laserLineRenderer.enabled = true;
+        DrawLaserBeam(characterHeadTransform.position, hit.point);
+    }
+    else
+    {
+        // Draw the laser beam to the maximum distance
+        laserLineRenderer.enabled = true;
+        DrawLaserBeam(characterHeadTransform.position, characterHeadTransform.position + characterHeadTransform.forward * maxDistance);
+    }
 }
+private void DrawLaserBeam(Vector3 startPoint, Vector3 endPoint)
+{
+    laserLineRenderer.SetPosition(0, startPoint);
+    laserLineRenderer.SetPosition(1, endPoint);
+}
+private void UpdateLaserBeam(Vector3 startPoint, Vector3 endPoint)
+{
+    if (laserLineRenderer.enabled)
+    {
+        laserLineRenderer.SetPosition(0, startPoint);
+        laserLineRenderer.SetPosition(1, endPoint);
+    }
+}
+
+
+
+}
+
