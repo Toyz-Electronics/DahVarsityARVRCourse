@@ -151,14 +151,14 @@ public class PlayerController : MonoBehaviour
             //Camera change
             //Spawn teleporter
         }
-        if (TI.teleportedIn == true)
+        if (TeleportationIn.teleportedIn == true)
         {
             transform.position = TC.portal2.transform.position;
             //RollAnimation.Invoke();
-            TI.teleportedIn = false;
-            TO.teleportedOut = false;
+            TeleportationIn.teleportedIn = false;
+            TeleportationOut.teleportedOut = false;
         }
-        if(TO.teleportedOut == false)
+        if(TeleportationOut.teleportedOut == false)
         {
            transform.position = new Vector3( transform.position.x, transform.position.y+.1f, transform.position.z);
             if (transform.position.y > .05f)

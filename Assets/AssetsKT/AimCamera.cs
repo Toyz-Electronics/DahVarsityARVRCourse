@@ -22,7 +22,7 @@ public class AimCamera : MonoBehaviour
     private void LateUpdate()
     {
         Rotate();
-        transform.position = Vector3.Lerp(transform.position, (player.transform.position + offsetY), 1f);
+        transform.position = Vector3.Lerp(transform.position, (player.transform.position + offsetY) * -1, 1f);
         transform.LookAt(player.transform.position);
     }
 

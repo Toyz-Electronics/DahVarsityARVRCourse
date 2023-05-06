@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TeleportationOut : MonoBehaviour
 {
-    public bool teleportedOut;
+    public static bool teleportedOut;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         teleportedOut = true;
     }
