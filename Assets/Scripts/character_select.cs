@@ -90,6 +90,12 @@ public class character_select : MonoBehaviour
         LoadNextScene();
     }
 
+    public void loadAashishAvatar(GameObject avatar){
+        avatar.SetActive(true);
+        DontDestroyOnLoad(avatar);
+        LoadNextScene();
+    }
+
     private void OnLoadFailed(object sender, FailureEventArgs args)
     {
         errorPopup.SetActive(true);
@@ -104,6 +110,8 @@ public class character_select : MonoBehaviour
         }
         SetupAvatar(args.Avatar);
     }
+
+
 
     private void SetupAvatar(GameObject targetAvatar)
     {
