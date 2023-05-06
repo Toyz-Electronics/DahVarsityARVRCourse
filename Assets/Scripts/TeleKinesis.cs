@@ -28,7 +28,10 @@ public class TeleKinesis : MonoBehaviour
     private float lastInputTime;
     private bool alpha1Pressed;
     private Coroutine inputDelayCoroutine;
-
+    public GameObject particleSystemPrefab;
+    private GameObject headParticleSystem;
+    private GameObject objectParticleSystem;
+    public float sphereCastRadius = 0.5f;
 
     private void Start()
     {
@@ -73,6 +76,11 @@ public class TeleKinesis : MonoBehaviour
             }
             attackingCoroutine = StartCoroutine(AttackObject(selectedObject, attackTarget));
         }
+
+         if (headParticleSystem != null)
+        {
+            headParticleSystem.transform.position = Vector3.Lerp(headParticleSystem.transform.position, selectedObject.transform.position, Time.deltaTime * moveSpeed);
+        }
     }
 }
 private IEnumerator HandleAlpha1Input()
@@ -84,22 +92,44 @@ private IEnumerator HandleAlpha1Input()
         Ray ray = new Ray(characterHeadTransform.position, characterHeadTransform.forward);
         int layerMask = ~LayerMask.GetMask("Ignore Raycast");
 
-        if (Physics.Raycast(ray, out hit, maxDistance, layerMask))
+        if (Physics.SphereCast(ray, sphereCastRadius, out hit, maxDistance, layerMask))
         {
-            if (hit.collider.GetComponent<Rigidbody>() != null)
+            Rigidbody hitRigidbody = hit.collider.GetComponent<Rigidbody>();
+            if (hitRigidbody == null)
             {
-                Debug.Log("Object selected");
-                isHoldingObject = true;
-                selectedObject = hit.collider.GetComponent<Rigidbody>();
-                selectedObject.useGravity = false;
-                originalScale = selectedObject.transform.localScale; // Store the original scale
-                Debug.Log("Original scale: " + originalScale); // Add this line to log the original scale
+                // If the hit object doesn't have a Rigidbody, stop processing the input
+                yield break;
+            }
 
-                if (liftingCoroutine != null)
-                {
-                    StopCoroutine(liftingCoroutine);
-                }
-                liftingCoroutine = StartCoroutine(LiftObject(selectedObject));
+            headParticleSystem = Instantiate(particleSystemPrefab, characterHeadTransform.position, Quaternion.identity, characterHeadTransform);
+            CurvedParticleMotion particleMotion = headParticleSystem.GetComponent<CurvedParticleMotion>();
+            if (particleMotion != null)
+            {
+                particleMotion.SetTarget(hit.transform.position);
+            }
+
+            yield return new WaitForSeconds(inputDelay); // Wait for the particle to reach the target
+
+            // Instantiate the object's particle system
+            objectParticleSystem = Instantiate(particleSystemPrefab, hit.transform.position, Quaternion.identity, hit.transform);
+
+            Debug.Log("Object selected");
+            isHoldingObject = true;
+            selectedObject = hitRigidbody;
+            selectedObject.useGravity = false;
+            originalScale = selectedObject.transform.localScale;
+            Debug.Log("Original scale: " + originalScale);
+
+            if (liftingCoroutine != null)
+            {
+                StopCoroutine(liftingCoroutine);
+            }
+            liftingCoroutine = StartCoroutine(LiftObject(selectedObject));
+
+            // Destroy the head particle system
+            if (headParticleSystem != null)
+            {
+                Destroy(headParticleSystem);
             }
         }
     }
@@ -108,8 +138,14 @@ private IEnumerator HandleAlpha1Input()
         Debug.Log("Object released");
         isHoldingObject = false;
         selectedObject.useGravity = true;
-        RestoreObjectScale(); // Restore the scale after releasing
+        RestoreObjectScale();
         selectedObject = null;
+
+        // Destroy the object's particle system
+        if (objectParticleSystem != null)
+        {
+            Destroy(objectParticleSystem);
+        }
     }
 
     yield return new WaitForSeconds(inputDelay);
