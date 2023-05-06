@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
-<<<<<<< Updated upstream
      <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -91,21 +90,6 @@
      <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\character_select.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
-=======
-     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
-     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
-     <Compile Include="Assets\AssetsKT\BallMovement.cs" />
-     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
-     <Compile Include="Assets\AssetsKT\ComboController.cs" />
-     <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
-     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
-     <Compile Include="Assets\AssetsKT\AnimationController.cs" />
-     <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
-     <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
-     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
-     <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
-     <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
->>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -133,10 +117,7 @@
      <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
      <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-<<<<<<< Updated upstream
      <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.1.0\QuickStart\Animations\license.txt" />
-=======
->>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -384,12 +365,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Microsoft.MixedReality.Input.DotNet">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\PackageCache\com.microsoft.mixedreality.input@c707ff4d69e7\Plugins\Windows\Microsoft.MixedReality.Input.DotNet.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
@@ -798,22 +776,16 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
-<<<<<<< Updated upstream
     <Reference Include="Microsoft.MixedReality.Input.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Microsoft.MixedReality.Input.Editor.dll</HintPath>
     </Reference>
-=======
->>>>>>> Stashed changes
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -834,12 +806,9 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
@@ -856,33 +825,24 @@
     <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
-<<<<<<< Updated upstream
     <Reference Include="Unity.XR.ARSubsystems.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-=======
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.XR.Management">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="ReadyPlayerMe.Extras.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll</HintPath>
     </Reference>
-<<<<<<< Updated upstream
     <Reference Include="Unity.XR.ARFoundation.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
@@ -898,11 +858,6 @@
     <Reference Include="glTFast.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
     </Reference>
-=======
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
->>>>>>> Stashed changes
     <Reference Include="PPv2URPConverters">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
@@ -930,12 +885,9 @@
     <Reference Include="Unity.Burst.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
-<<<<<<< Updated upstream
     <Reference Include="Unity.XR.Interaction.Toolkit">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
-=======
->>>>>>> Stashed changes
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
@@ -947,12 +899,9 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Microsoft.MixedReality.OpenXR">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -980,12 +929,9 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="ReadyPlayerMe.AvatarLoader.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\ReadyPlayerMe.AvatarLoader.Editor.dll</HintPath>
@@ -1001,12 +947,9 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-=======
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
@@ -1019,27 +962,12 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-<<<<<<< Updated upstream
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-=======
-    </Reference>
-    <Reference Include="Unity.SysrootPackage.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="glTFast">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\glTFast.dll</HintPath>
-    </Reference>
-    <Reference Include="glTFast.dots">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
-    </Reference>
-    <Reference Include="glTFast.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1047,7 +975,6 @@
       <Project>{f5eed4a9-f707-d846-b091-22e323b1c81d}</Project>
       <Name>WebView</Name>
     </ProjectReference>
-<<<<<<< Updated upstream
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{0ecab066-78aa-7571-a750-8060be6fcca0}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
@@ -1056,8 +983,6 @@
       <Project>{6c223a82-6ba1-77a6-a078-7bac766b555c}</Project>
       <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
-=======
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
