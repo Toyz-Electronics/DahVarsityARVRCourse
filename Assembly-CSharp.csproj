@@ -37,12 +37,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
+     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
      <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
      <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
      <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
+     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
+     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
      <Compile Include="Assets\Scripts\load_input_scene.cs" />
      <Compile Include="Assets\BreakdanceControls.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
@@ -61,6 +64,7 @@
      <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
      <Compile Include="Assets\Scripts\GroundCheck.cs" />
      <Compile Include="Assets\GameKitScripts\GameKitManager.cs" />
+     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
      <Compile Include="Assets\AssetsKT\ComboController.cs" />
      <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
      <Compile Include="Assets\Scripts\TeleKinesis.cs" />
@@ -73,6 +77,7 @@
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
      <Compile Include="Assets\hybridThirdPersonController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
      <Compile Include="Assets\AssetsKT\AnimationController.cs" />
      <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
@@ -91,11 +96,6 @@
      <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\character_select.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
-     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
-     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
-     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
-     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
