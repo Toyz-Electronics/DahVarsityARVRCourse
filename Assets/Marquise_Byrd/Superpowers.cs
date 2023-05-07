@@ -17,9 +17,15 @@ public class Superpowers : MonoBehaviour
         if(Input.GetKeyDown("k"))
         {
             animator.SetBool("ice_blast", true);
+            StartCoroutine(IceTime());
             Debug.Log("KAMEHAMEHAAAAa");
-            animator.SetBool("ice_blast", false);
         }
         
+    }
+
+    IEnumerator IceTime()
+    {
+        yield return new WaitForSeconds(3f);
+        animator.SetBool("ice_blast", false);
     }
 }

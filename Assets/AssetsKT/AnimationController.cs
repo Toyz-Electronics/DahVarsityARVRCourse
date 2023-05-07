@@ -81,7 +81,7 @@ public class AnimationController : MonoBehaviour
     }
     IEnumerator JumpTime()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3f);
         anim.SetBool("IsJumping", false);
     }
     

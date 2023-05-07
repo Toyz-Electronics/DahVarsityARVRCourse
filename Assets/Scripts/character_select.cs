@@ -96,6 +96,18 @@ public class character_select : MonoBehaviour
         LoadNextScene();
     }
 
+    public void loadKennedyAvatar(GameObject avatar){
+        avatar.SetActive(true);
+        DontDestroyOnLoad(avatar);
+        LoadNextScene();
+    }
+
+    public void loadMarquiseAvatar(GameObject avatar){
+        avatar.SetActive(true);
+        DontDestroyOnLoad(avatar);
+        LoadNextScene();
+    }
+
     private void OnLoadFailed(object sender, FailureEventArgs args)
     {
         errorPopup.SetActive(true);
@@ -136,6 +148,31 @@ public class character_select : MonoBehaviour
             setupAvatarCompleted();
         }
     }
+
+    public void SetupMarquiseAvatar(GameObject targetAvatar)
+    {
+        if (avatar != null)
+        {
+            Destroy(avatar);
+        }
+        avatar = targetAvatar;
+        // Re-parent and reset transforms
+        playerObject.SetActive(false);
+        rpmPlayerObject.SetActive(true);
+        avatar.transform.parent = GameObject.Find("RPM Player").transform;
+        avatar.transform.localPosition = avatarPositionOffset;
+        avatar.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        //avatar.tag = "RPMPlayer";
+        var controller = GameObject.Find("RPM Player").GetComponent<ThirdPersonController>();
+        if (controller != null)
+        {
+            Debug.Log("the controller isn't null, time to call the setupAvatar script!");
+            controller.Setup(avatar, animatorController);
+            DontDestroyOnLoad(avatar);
+            setupAvatarCompleted();
+        }
+    }
+
 
     public void setupAvatarCompleted()
     {

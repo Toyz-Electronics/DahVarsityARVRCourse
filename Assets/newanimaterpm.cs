@@ -17,10 +17,10 @@ public class newanimaterpm : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rpmAvatar = GameObject.FindGameObjectWithTag("RPMPlayer");
-        if (GameObject.FindGameObjectWithTag("RPMPlayer") != null)
+        rpmAvatar = GameObject.Find("RPM Player");
+        if (GameObject.Find("RPM  Player") != null)
         {
-            rpmAvatar = GameObject.FindGameObjectWithTag("RPMPlayer");
+            rpmAvatar = GameObject.Find("RPM Player");
             Debug.Log("we set the buttons!");
             FootButton.onClick.AddListener(OnFootButton);
             FreezeButton.onClick.AddListener(OnFreezeButton);
@@ -34,9 +34,9 @@ public class newanimaterpm : MonoBehaviour
     {
         if (rpmAvatar == null) // if we arent hooked to the readyplayerme avatar already
         {
-            if (GameObject.FindGameObjectWithTag("RPMPlayer") != null)
+            if (GameObject.Find("RPM Player") != null)
             {
-                rpmAvatar = GameObject.FindGameObjectWithTag("RPMPlayer");
+                rpmAvatar = GameObject.Find("RPM Player");
                 Debug.Log("we set the buttons!");
                 FootButton.onClick.AddListener(OnFootButton);
                 FreezeButton.onClick.AddListener(OnFreezeButton);

@@ -144,7 +144,7 @@ namespace ReadyPlayerMe.QuickStart
                 lr.endWidth = w2;
                 lr.SetPosition(0, beam_start.transform.position);
                 lr.SetPosition(1, beam_target.transform.position);
-                lr.material = new Material("Default-Line");
+                lr.material = material;
 
                 //lr.positionCount = beam_distace;
                 GameObject.Destroy(lr, 1f);
