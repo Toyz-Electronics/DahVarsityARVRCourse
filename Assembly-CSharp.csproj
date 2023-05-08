@@ -68,7 +68,6 @@
     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\load_levels_completed.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\hpReverbInputSystem.cs" />
     <Compile Include="Assets\Points_Of_Interest\Scripts\script_gallery_button.cs" />
@@ -76,7 +75,6 @@
     <Compile Include="Assets\BreakdanceControls.cs" />
     <Compile Include="Assets\Music Player\Scripts\PlayListItem.cs" />
     <Compile Include="Assets\Music Player\Scripts\Speakers.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\dashboard_controller.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ComboController.cs" />
@@ -87,13 +85,11 @@
     <Compile Include="Assets\Marquise_Byrd\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonControllerAashish.cs" />
     <Compile Include="Assets\Scripts\button_hover_display.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\New_Scripts\badge_tab_manager.cs" />
     <Compile Include="Assets\Music Player\Scripts\SoundIconManager.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Music Player\Scripts\CommonUtil.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonMovementAashish.cs" />
     <Compile Include="Assets\Scripts\MouseCursorLock.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\script_player_settings.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\GameKitScripts\GameKitManager.cs" />
@@ -106,14 +102,12 @@
     <Compile Include="Assets\onEnable.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\AnimationListener.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\New_Scripts\points_tab_manager.cs" />
     <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
     <Compile Include="Assets\Music Player\Scripts\MusicInfoManager.cs" />
     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
     <Compile Include="Assets\Music Player\Scripts\UIEvents.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\hybridThirdPersonController.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\New_Scripts\account_tab_manager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\AssetsKT\AnimationController.cs" />
@@ -144,7 +138,6 @@
     <Compile Include="Assets\Music Player\Scripts\ParticlesRandomColor.cs" />
     <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
     <Compile Include="Assets\Travel_Menu\Scripts\script_travel_menu_controller.cs" />
-    <Compile Include="Assets\Player_Dashboard\Scripts\New_Scripts\profile_info_manager.cs" />
     <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
     <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\character_select.cs" />
