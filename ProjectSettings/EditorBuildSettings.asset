@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/GameScenes/StandardAvatarImporter.unity
+    guid: b4ba15445c792f04da5015e732a8e09e
+  - enabled: 1
     path: Assets/GameScenes/DahCharacterDay.unity
     guid: 36324b45befb4f74d9a3fe6d69580080
   m_configObjects:

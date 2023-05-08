@@ -3613,6 +3613,10 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 177259651}
+    - target: {fileID: 5079932738637831218, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
+      propertyPath: m_Center.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5079932738637831219, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4922,20 +4926,6 @@ MonoBehaviour:
   beam_target: {fileID: 0}
   beam_start: {fileID: 0}
   inputEnabled: 1
---- !u!114 &1185356101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947262270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d192625dd638c3428fb176dd7aef677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivityX: 1
-  mouseSensitivityY: 2
 --- !u!114 &1185356102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4951,7 +4941,7 @@ MonoBehaviour:
   playerCamera: {fileID: 177259651}
   walkSpeed: 3
   runSpeed: 8
-  gravity: -18
+  gravity: -9
   jumpHeight: 3
 --- !u!114 &1185356103
 MonoBehaviour:
@@ -4969,7 +4959,7 @@ MonoBehaviour:
   groundRadius: 0.28
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
 --- !u!114 &1185356104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9099,6 +9089,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1230318416749072717, guid: c7b39320f1f0e2a4fa2d760876134788, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230318416749072717, guid: c7b39320f1f0e2a4fa2d760876134788, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e3550a75fcacd5c4c9a097ee639061d7, type: 2}
@@ -10415,6 +10409,10 @@ PrefabInstance:
     - target: {fileID: 9179126387427790994, guid: 6bc2ffd3c8cb3bf47a6486cc5549dcca, type: 3}
       propertyPath: m_Name
       value: 63fe7096cf1cb15f36c2b021
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179126387427790994, guid: 6bc2ffd3c8cb3bf47a6486cc5549dcca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc2ffd3c8cb3bf47a6486cc5549dcca, type: 3}

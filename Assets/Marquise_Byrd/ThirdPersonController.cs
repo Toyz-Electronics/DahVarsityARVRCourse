@@ -47,8 +47,8 @@ namespace ReadyPlayerMe.QuickStart
         private void Init()
         {
             thirdPersonMovement = GetComponent<ThirdPersonMovement>();
-            playerInput = GetComponent<PlayerInput>();
-            playerInput.OnJumpPress += OnJump;
+            //playerInput = GetComponent<PlayerInput>();
+            //playerInput.OnJumpPress += OnJump;
             isInitialized = true;
             _input = GetComponent<StarterAssetsInputs>();
 
@@ -84,13 +84,13 @@ namespace ReadyPlayerMe.QuickStart
             }
             if (inputEnabled)
             {
-                playerInput.CheckInput();
+                //playerInput.CheckInput();
                 //var xAxisInput = playerInput.AxisHorizontal;
                 //var yAxisInput = playerInput.AxisVertical;
                 var xAxisInput = _input.move.x;
                 var yAxisInput = _input.move.y;
                 thirdPersonMovement.Move(xAxisInput, yAxisInput);
-                thirdPersonMovement.SetIsRunning(playerInput.IsHoldingLeftShift);
+                //thirdPersonMovement.SetIsRunning(playerInput.IsHoldingLeftShift);
             }
             UpdateAnimator();
         }
