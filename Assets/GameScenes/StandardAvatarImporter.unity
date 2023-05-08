@@ -10465,7 +10465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1975666657501101030, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: m_text
-      value: AashiSH
+      value: Akbar
       objectReference: {fileID: 0}
     - target: {fileID: 2024307939586818768, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: errorPopup
@@ -10489,7 +10489,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: bea63b6083163f247878bb28fe8da8be, type: 2}
     - target: {fileID: 2145348252129732490, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: m_text
-      value: Marquise
+      value: Frostbite
       objectReference: {fileID: 0}
     - target: {fileID: 2219920755070280696, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: playerObject
@@ -10745,7 +10745,7 @@ PrefabInstance:
       objectReference: {fileID: 1264856814}
     - target: {fileID: 8217165774770347260, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: m_text
-      value: Kennedy
+      value: Void
       objectReference: {fileID: 0}
     - target: {fileID: 8580472015581127324, guid: 7a6e23018adf309408d0eba28009ff2d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
