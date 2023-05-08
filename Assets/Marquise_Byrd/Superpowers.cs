@@ -16,7 +16,7 @@ public class Superpowers : MonoBehaviour
     {
         if(Input.GetKeyDown("k"))
         {
-            animator.SetBool("ice_blast", true);
+            animator.SetBool("ice_attack", true);
             StartCoroutine(IceTime());
             Debug.Log("KAMEHAMEHAAAAa");
         }
@@ -26,6 +26,6 @@ public class Superpowers : MonoBehaviour
     IEnumerator IceTime()
     {
         yield return new WaitForSeconds(3f);
-        animator.SetBool("ice_blast", false);
+        animator.SetBool("ice_attack", false);
     }
 }

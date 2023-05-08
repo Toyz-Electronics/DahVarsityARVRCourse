@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using StarterAssets;
+
 
 namespace ReadyPlayerMe.QuickStart
 {
@@ -21,7 +23,9 @@ namespace ReadyPlayerMe.QuickStart
 
         private CharacterController controller;
         private GameObject avatar;
-        
+        private StarterAssetsInputs _input;
+
+
         private float verticalVelocity;
         private float turnSmoothVelocity;
 
@@ -40,6 +44,7 @@ namespace ReadyPlayerMe.QuickStart
         public void Setup(GameObject target)
         {
             avatar = target;
+            _input = GetComponent<StarterAssetsInputs>();
             if (playerCamera == null)
             {
                 playerCamera = Camera.main.transform;
@@ -77,7 +82,7 @@ namespace ReadyPlayerMe.QuickStart
                 verticalVelocity = -2f;
             }
             
-            if (jumpTrigger && controller.isGrounded)
+            if ((jumpTrigger || _input.jump) && controller.isGrounded)
             {
                 verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 jumpTrigger = false;

@@ -1,5 +1,7 @@
 
 using UnityEngine;
+using StarterAssets;
+
 
 namespace ReadyPlayerMe.QuickStart
 {
@@ -22,17 +24,21 @@ namespace ReadyPlayerMe.QuickStart
 
         private float pitch;
         private float yaw;
+        private StarterAssetsInputs _input;
+
 
         private void Start()
         {
             rotation = transform.transform.eulerAngles;
+            _input = GameObject.Find("RPM Player").GetComponent<StarterAssetsInputs>();
+
         }
 
         private void LateUpdate()
         {
-            if (playerInput == null) return;
-            yaw += playerInput.MouseAxisX ;
-            pitch -= playerInput.MouseAxisY ;
+            //if (playerInput == null) return;
+            yaw += _input.look.x; //playerInput.MouseAxisX ;
+            pitch += _input.look.y;//playerInput.MouseAxisY ;
 
             if (smoothDamp)
             {
