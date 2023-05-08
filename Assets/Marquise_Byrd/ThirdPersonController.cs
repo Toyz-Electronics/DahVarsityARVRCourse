@@ -1,10 +1,14 @@
 using UnityEngine;
+using StarterAssets;
+using System.Collections;
 
 namespace ReadyPlayerMe.QuickStart
 {
-    [RequireComponent(typeof(ThirdPersonMovement),typeof(PlayerInput))]
+    [RequireComponent(typeof(ThirdPersonMovement))]
     public class ThirdPersonController : MonoBehaviour
     {
+        private StarterAssetsInputs _input;
+
         private const float FALL_TIMEOUT = 0.15f;
         private bool attack = false;
         public Material material;
@@ -24,6 +28,8 @@ namespace ReadyPlayerMe.QuickStart
         private static readonly int JumpHash = Animator.StringToHash("JumpTrigger");
         private static readonly int FreeFallHash = Animator.StringToHash("FreeFall");
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
+        private static readonly int IsIceAttackHash = Animator.StringToHash("ice_attack");
+
         private Transform playerCamera;
         private Animator animator;
         private Vector2 inputVector;
@@ -44,6 +50,8 @@ namespace ReadyPlayerMe.QuickStart
             playerInput = GetComponent<PlayerInput>();
             playerInput.OnJumpPress += OnJump;
             isInitialized = true;
+            _input = GetComponent<StarterAssetsInputs>();
+
         }
 
         public void Setup(GameObject target, RuntimeAnimatorController runtimeAnimatorController)
@@ -77,8 +85,10 @@ namespace ReadyPlayerMe.QuickStart
             if (inputEnabled)
             {
                 playerInput.CheckInput();
-                var xAxisInput = playerInput.AxisHorizontal;
-                var yAxisInput = playerInput.AxisVertical;
+                //var xAxisInput = playerInput.AxisHorizontal;
+                //var yAxisInput = playerInput.AxisVertical;
+                var xAxisInput = _input.move.x;
+                var yAxisInput = _input.move.y;
                 thirdPersonMovement.Move(xAxisInput, yAxisInput);
                 thirdPersonMovement.SetIsRunning(playerInput.IsHoldingLeftShift);
             }
@@ -111,12 +121,12 @@ namespace ReadyPlayerMe.QuickStart
 
             if (Input.GetKeyDown("k"))
             {
-                animator.SetBool("ice attack", true);
+                animator.Play("ice_attack"); //SetBool(IsIceAttackHash, true);
                 attack = true;
             }
             else
             {
-              animator.SetBool("ice attack", false);
+              animator.SetBool(IsIceAttackHash, false);
               attack = false;
             }
             DrawLine();
@@ -135,21 +145,36 @@ namespace ReadyPlayerMe.QuickStart
             if(attack == true)
             {
                 Debug.Log("LASER");
-                avatar.AddComponent<LineRenderer>();
-                LineRenderer lr = avatar.GetComponent<LineRenderer>();
-                lr.material = material;
-                lr.startColor = lrc1;
-                lr.endColor = lrc2;
-                lr.startWidth = w1;
-                lr.endWidth = w2;
-                lr.SetPosition(0, beam_start.transform.position);
-                lr.SetPosition(1, beam_target.transform.position);
-                lr.material = material;
+                StartCoroutine(IceTime());
+                StartCoroutine(IceAttack());
 
-                //lr.positionCount = beam_distace;
-                GameObject.Destroy(lr, 1f);
+
             }
 
+        }
+
+        IEnumerator IceTime()
+        {
+            yield return new WaitForSeconds(5f);
+            animator.SetBool("ice_attack", false);
+        }
+
+        IEnumerator IceAttack()
+        {
+            yield return new WaitForSeconds(2.5f);
+            avatar.AddComponent<LineRenderer>();
+            LineRenderer lr = avatar.GetComponent<LineRenderer>();
+            lr.material = material;
+            lr.startColor = lrc1;
+            lr.endColor = lrc2;
+            lr.startWidth = w1;
+            lr.endWidth = w2;
+            lr.SetPosition(0, beam_start.transform.position);
+            lr.SetPosition(1, beam_target.transform.position);
+            lr.material = material;
+
+            //lr.positionCount = beam_distace;
+            GameObject.Destroy(lr, 1f);
         }
     }
 }
