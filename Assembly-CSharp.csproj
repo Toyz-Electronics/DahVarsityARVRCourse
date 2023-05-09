@@ -105,6 +105,7 @@
     <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
     <Compile Include="Assets\Music Player\Scripts\MusicInfoManager.cs" />
     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
+    <Compile Include="Assets\PlayerController2.cs" />
     <Compile Include="Assets\Music Player\Scripts\UIEvents.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\hybridThirdPersonController.cs" />
