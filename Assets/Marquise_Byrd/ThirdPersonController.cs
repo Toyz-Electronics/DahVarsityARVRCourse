@@ -143,7 +143,7 @@ namespace ReadyPlayerMe.QuickStart
                 }
             }
 
-            if (Input.GetKeyDown("E"))
+            if (Input.GetKeyDown("e"))
             {
                 animator.Play("ice_attack"); //SetBool(IsIceAttackHash, true);
                 attack = true;
