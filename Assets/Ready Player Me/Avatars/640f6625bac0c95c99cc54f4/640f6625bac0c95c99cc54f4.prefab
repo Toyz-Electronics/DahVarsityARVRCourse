@@ -2993,8 +2993,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5229234521442518992}
-  - component: {fileID: 1230318416749072717}
   - component: {fileID: 1868170060904591919}
+  - component: {fileID: 6864317068075134522}
   m_Layer: 0
   m_Name: 640f6625bac0c95c99cc54f4
   m_TagString: Untagged
@@ -3026,26 +3026,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1230318416749072717
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7778113707103696318}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ba5173a85368a4f4eb45fbc497be292c, type: 2}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1868170060904591919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3063,6 +3043,26 @@ MonoBehaviour:
     BodyType: 1
     OutfitGender: 1
     SkinTone: '#845140'
+--- !u!95 &6864317068075134522
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7778113707103696318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e3550a75fcacd5c4c9a097ee639061d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7997636656731412420
 GameObject:
   m_ObjectHideFlags: 0

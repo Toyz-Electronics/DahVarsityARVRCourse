@@ -23,7 +23,6 @@ namespace ReadyPlayerMe.QuickStart
 
         private CharacterController controller;
         private GameObject avatar;
-        private StarterAssetsInputs _input;
 
 
         private float verticalVelocity;
@@ -44,7 +43,6 @@ namespace ReadyPlayerMe.QuickStart
         public void Setup(GameObject target)
         {
             avatar = target;
-            _input = GetComponent<StarterAssetsInputs>();
             if (playerCamera == null)
             {
                 playerCamera = Camera.main.transform;
@@ -82,7 +80,7 @@ namespace ReadyPlayerMe.QuickStart
                 verticalVelocity = -2f;
             }
             
-            if ((jumpTrigger || _input.jump) && controller.isGrounded)
+            if ((jumpTrigger) && controller.isGrounded)
             {
                 verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 jumpTrigger = false;

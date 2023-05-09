@@ -36,9 +36,9 @@ namespace ReadyPlayerMe.QuickStart
 
         private void LateUpdate()
         {
-            //if (playerInput == null) return;
-            yaw += _input.look.x; //playerInput.MouseAxisX ;
-            pitch += _input.look.y;//playerInput.MouseAxisY ;
+            if (playerInput == null) return;
+            yaw += /*_input.look.x;*/ playerInput.MouseAxisX ;
+            pitch += /*_input.look.y;*/ playerInput.MouseAxisY ;
 
             if (smoothDamp)
             {

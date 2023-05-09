@@ -18,7 +18,7 @@ public class newanimaterpm : MonoBehaviour
     void Start()
     {
         rpmAvatar = GameObject.Find("RPM Player");
-        if (GameObject.Find("RPM  Player") != null)
+        if (GameObject.Find("RPM Player") != null)
         {
             rpmAvatar = GameObject.Find("RPM Player");
             Debug.Log("we set the buttons!");

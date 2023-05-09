@@ -14,7 +14,7 @@ public class Superpowers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("k"))
+        if(Input.GetKeyDown("e"))
         {
             animator.SetBool("ice_attack", true);
             StartCoroutine(IceTime());
