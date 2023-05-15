@@ -89,6 +89,7 @@
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Music Player\Scripts\CommonUtil.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonMovementAashish.cs" />
+    <Compile Include="Assets\superheroProfile.cs" />
     <Compile Include="Assets\Scripts\MouseCursorLock.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />

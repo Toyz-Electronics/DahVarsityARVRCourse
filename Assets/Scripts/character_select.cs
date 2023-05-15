@@ -39,6 +39,8 @@ public class character_select : MonoBehaviour
     [SerializeField]
     private GameObject playerArmature;
 
+    public static int characterSelected;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,12 +93,14 @@ public class character_select : MonoBehaviour
     }
 
     public void loadAashishAvatar(GameObject avatar){
+        characterSelected = 1;
         avatar.SetActive(true);
         DontDestroyOnLoad(avatar);
         LoadNextScene();
     }
 
     public void loadKennedyAvatar(GameObject avatar){
+        characterSelected = 2;
         avatar.SetActive(true);
         DontDestroyOnLoad(avatar);
         LoadNextScene();
@@ -151,6 +155,7 @@ public class character_select : MonoBehaviour
 
     public void SetupMarquiseAvatar(GameObject targetAvatar)
     {
+        characterSelected = 3;
         if (avatar != null)
         {
             Destroy(avatar);
