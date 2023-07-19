@@ -7,9 +7,9 @@
 /dataSources/
 /dataSources.local.xml
 #Cache Library 
-/Library
-Library/
+Library/*
 !Library/PackageCache
+*Library/PackageCache/com.unity*
 # Logs
 /Logs
 Logs/
