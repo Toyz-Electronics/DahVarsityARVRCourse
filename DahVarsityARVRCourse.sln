@@ -7,12 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe", "ReadyPlaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView", "WebView.csproj", "{f5eed4a9-f707-d846-b091-22e323b1c81d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples", "Unity.XR.Management.Samples.csproj", "{6c223a82-6ba1-77a6-a078-7bac766b555c}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples.Editor", "Unity.XR.Management.Samples.Editor.csproj", "{0ecab066-78aa-7571-a750-8060be6fcca0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6f475b68-5eae-4005-91df-2c04f25ad674}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,12 +18,6 @@ Global
 		{328e1be5-a8e3-4229-bfd4-b7b8e1d7c876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f5eed4a9-f707-d846-b091-22e323b1c81d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f5eed4a9-f707-d846-b091-22e323b1c81d}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6c223a82-6ba1-77a6-a078-7bac766b555c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6c223a82-6ba1-77a6-a078-7bac766b555c}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0ecab066-78aa-7571-a750-8060be6fcca0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0ecab066-78aa-7571-a750-8060be6fcca0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6f475b68-5eae-4005-91df-2c04f25ad674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6f475b68-5eae-4005-91df-2c04f25ad674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

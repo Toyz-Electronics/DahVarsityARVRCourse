@@ -39,12 +39,9 @@
      <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
      <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
      <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
-     <Compile Include="Assets\Music Player\Scripts\MusicTime.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-     <Compile Include="Assets\Music Player\Scripts\OpenCloseMusicPlayer.cs" />
      <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
-     <Compile Include="Assets\Music Player\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
      <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
@@ -52,8 +49,6 @@
      <Compile Include="Assets\hpReverbInputSystem.cs" />
      <Compile Include="Assets\Scripts\load_input_scene.cs" />
      <Compile Include="Assets\BreakdanceControls.cs" />
-     <Compile Include="Assets\Music Player\Scripts\PlayListItem.cs" />
-     <Compile Include="Assets\Music Player\Scripts\Speakers.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonLoader.cs" />
      <Compile Include="Assets\Scripts\ComboController.cs" />
@@ -64,9 +59,7 @@
      <Compile Include="Assets\Marquise_Byrd\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonControllerAashish.cs" />
      <Compile Include="Assets\Scripts\button_hover_display.cs" />
-     <Compile Include="Assets\Music Player\Scripts\SoundIconManager.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-     <Compile Include="Assets\Music Player\Scripts\CommonUtil.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMovementAashish.cs" />
      <Compile Include="Assets\superheroProfile.cs" />
      <Compile Include="Assets\Scripts\MouseCursorLock.cs" />
@@ -76,67 +69,49 @@
      <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
      <Compile Include="Assets\AssetsKT\ComboController.cs" />
      <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
-     <Compile Include="Assets\Music Player\Scripts\PlayList.cs" />
      <Compile Include="Assets\Scripts\TeleKinesis.cs" />
      <Compile Include="Assets\newanimaterpm.cs" />
      <Compile Include="Assets\onEnable.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
      <Compile Include="Assets\Scripts\AnimationListener.cs" />
      <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
-     <Compile Include="Assets\Music Player\Scripts\MusicInfoManager.cs" />
      <Compile Include="Assets\AssetsKT\AimCamera.cs" />
      <Compile Include="Assets\PlayerController2.cs" />
-     <Compile Include="Assets\Music Player\Scripts\UIEvents.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
      <Compile Include="Assets\hybridThirdPersonController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
      <Compile Include="Assets\AssetsKT\AnimationController.cs" />
-     <Compile Include="Assets\Music Player\Scripts\SpectrumsManager.cs" />
      <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-     <Compile Include="Assets\Music Player\Scripts\Links.cs" />
      <Compile Include="Assets\Virtual_Cursor\Scripts\gamepad_cursor.cs" />
      <Compile Include="Assets\Scripts\script_player_info.cs" />
-     <Compile Include="Assets\Music Player\Scripts\DirtyUtil.cs" />
      <Compile Include="Assets\Scripts\menu_manager.cs" />
      <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
      <Compile Include="Assets\Scripts\PlayerInput.cs" />
-     <Compile Include="Assets\Music Player\Scripts\Rotate.cs" />
      <Compile Include="Assets\CloseApp.cs" />
      <Compile Include="Assets\poimappopup.cs" />
      <Compile Include="Assets\CurvedParticleMotion.cs" />
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
-     <Compile Include="Assets\Music Player\Scripts\Colors.cs" />
      <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
-     <Compile Include="Assets\Music Player\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
      <Compile Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\Example_02\InstanceExample.cs" />
      <Compile Include="Assets\script_player_profile.cs" />
-     <Compile Include="Assets\Music Player\Scripts\ParticlesRandomColor.cs" />
      <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
      <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
      <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\character_select.cs" />
      <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\Music Player\Version Changes.txt" />
-     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-     <None Include="Assets\Music Player\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\Example_02\Help Readme SOS.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -146,19 +121,14 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Shaders\3DText.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
-     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
      <None Include="Assets\AssetsKT\_Creepy_Cat\3D Games Effects Pack Free\_FAQ - Informations\Help Readme SOS.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.1.0\QuickStart\Animations\license.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -796,9 +766,6 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
@@ -817,17 +784,8 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
@@ -847,32 +805,17 @@
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
     <Reference Include="ReadyPlayerMe.Extras.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="glTFast">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\glTFast.dll</HintPath>
@@ -898,14 +841,8 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Sysroot.Linux_x86_64">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -916,23 +853,11 @@
     <Reference Include="Unity.Burst.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -943,26 +868,14 @@
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-    </Reference>
     <Reference Include="ReadyPlayerMe.AvatarLoader.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\ReadyPlayerMe.AvatarLoader.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="ReadyPlayerMe.Core.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\ReadyPlayerMe.Core.Editor.dll</HintPath>
@@ -970,26 +883,8 @@
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation">
-        <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>C:\Users\Owner\Desktop\DahVarsityARVRCourse\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
@@ -1000,17 +895,9 @@
       <Project>{f5eed4a9-f707-d846-b091-22e323b1c81d}</Project>
       <Name>WebView</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{0ecab066-78aa-7571-a750-8060be6fcca0}</Project>
-      <Name>Unity.XR.Management.Samples.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.csproj">
       <Project>{328e1be5-a8e3-4229-bfd4-b7b8e1d7c876}</Project>
       <Name>ReadyPlayerMe</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{6c223a82-6ba1-77a6-a078-7bac766b555c}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
