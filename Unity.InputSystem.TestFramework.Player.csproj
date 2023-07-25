@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests\TestFixture\InputTestRuntime.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests\TestFixture\InputTestFixture.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests\TestFixture\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests\TestFixture\InputTestRuntime.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\Tests\TestFixture\WinUserInput.cs" />
   </ItemGroup>
   <ItemGroup>

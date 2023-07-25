@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_15;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;READY_PLAYER_ME;UNITY_PHYSICS;UNITY_ANIMATION;UNITY_IMAGECONVERSION;UNITY_WEBREQUEST_TEXTURE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_15;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;READY_PLAYER_ME;USING_URP;UNITY_PHYSICS;UNITY_ANIMATION;UNITY_IMAGECONVERSION;UNITY_WEBREQUEST_TEXTURE;USING_URP_12_OR_NEWER;UNITY_SHADER_GRAPH_12_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,7 +56,6 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GameObjectBoundsInstantiator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Constants.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Image.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialSheen.cs" />
@@ -64,98 +63,104 @@
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\UriHelper.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Texture.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfGlobals.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Buffer.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Logging\ICodeLogger.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Jobs.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureTransform.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\NormalTextureInfo.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\AnimationUtils.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Logging\ConsoleLogger.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\SamplerKey.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\NameImportMethod.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadContextBase.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\MeshPrimitive.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\ComponentType.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureExtension.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\AccessorSparseIndices.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\NamedObject.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Loading\DefaultDownloadProvider.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\MaterialExtension.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\LightsPunctual.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MeshPrimitive.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Logging\LogMessages.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\SceneObjectCreation.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexStructs.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfAsset.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Logging\CollectingLogger.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\BuiltInShaderGraphMaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Loading\IDownload.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\GltfCamera.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferBones.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialTransmission.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\IGltfReadable.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadContext.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Asset.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\OcclusionTextureInfo.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\AccessorSparseValues.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\AnimationMethod.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferConfigBase.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Root.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\AccessorSparse.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\JsonParser.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Scene.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialPbrMetallicRoughness.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfImport.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GameObjectInstantiator.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\InstantiationSettings.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Accessor.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\ShaderGraphMaterialGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\MaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Mesh.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureInfoExtension.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\LightPunctualExtension.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Material.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\RootExtension.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MeshGpuInstancing.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\BuiltInMaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\PrimitiveCreateContext.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\IDeferAgent.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferTexCoords.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\AccessorData.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GlbBinChunk.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\UninterruptedDefaultDeferAgent.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\PbrSpecularGlossiness.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\BufferView.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfBoundsAsset.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\GltfAnimation.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialExtension.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Sampler.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\IMaterialGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\RenderPipelineUtils.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\JsonWriter.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\DefaultDeferAgent.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureInfo.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfAssetBase.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialClearCoat.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Mathematics.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadNativeContext.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Mesh.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\UniveralRPMaterialGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Jobs.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\NormalTextureInfo.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\AnimationUtils.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Logging\ConsoleLogger.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadContextBase.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureExtension.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\HighDefinitionRPMaterialGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\AccessorSparseIndices.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\NamedObject.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Loading\DefaultDownloadProvider.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MeshPrimitive.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexStructs.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfAsset.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\GltfCamera.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferBones.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\IGltfReadable.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadContext.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\AccessorSparseValues.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferConfigBase.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Root.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\JsonParser.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfImport.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GameObjectInstantiator.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\InstantiationSettings.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\MaterialGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\LightPunctualExtension.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Material.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MeshGpuInstancing.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\BuiltInMaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\ImportSettings.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\PrimitiveCreateContextBase.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferColors.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Node.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\AccessorData.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GlbBinChunk.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\MorphTargetContext.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Root.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\IInstantiator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Primitive.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\UninterruptedDefaultDeferAgent.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\VertexBufferConfig.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\Constants.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\TimeBudgetPerFrameDeferAgent.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Loading\CustomHeaderDownloadProvider.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\PbrSpecularGlossiness.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\NodeLightsPunctual.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\BufferView.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\GltfAnimation.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfBoundsAsset.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialExtension.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialUnlit.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Sampler.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\AccessorSparse.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Accessor.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Material\IMaterialGenerator.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GameObjectSceneInstance.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\RenderPipelineUtils.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\JsonWriter.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\DefaultDeferAgent.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Skin.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\TextureInfo.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\TextureDownload.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\ImageCreateContext.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\RootExtension.cs" />
@@ -163,13 +168,8 @@
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\IGltfBuffers.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\NodeExtension.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\NamedObject.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GltfAssetBase.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\DontDestroyOnLoad.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\MaterialClearCoat.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Mathematics.cs" />
     <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\Material.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\KtxLoadNativeContext.cs" />
-    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\FakeSchema\Mesh.cs" />
+    <Compile Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\GameObjectBoundsInstantiator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.atteneder.gltfast@5c36f44050\Runtime\Scripts\Schema\glTFast.Schema.asmref" />
@@ -457,22 +457,22 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -867,6 +867,10 @@
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{C2F929BC-59AB-E90E-7D79-846117B818F9}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{8AF63C9E-B292-47CD-E4AC-50BAC09C6F53}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{F25E4C58-5B5C-D1F8-0FA5-76BD6050A093}</Project>

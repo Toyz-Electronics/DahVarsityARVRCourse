@@ -58,31 +58,17 @@
   <ItemGroup>
     <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
-    <Compile Include="Assets\AssetsKT\AimCamera.cs" />
     <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
-    <Compile Include="Assets\PlayerController2.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\hybridThirdPersonController.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\AssetsKT\AnimationController.cs" />
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
-    <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\Virtual_Cursor\Scripts\gamepad_cursor.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\hpReverbInputSystem.cs" />
-    <Compile Include="Assets\Scripts\script_player_info.cs" />
     <Compile Include="Assets\Scripts\load_input_scene.cs" />
-    <Compile Include="Assets\Scripts\menu_manager.cs" />
     <Compile Include="Assets\BreakdanceControls.cs" />
-    <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ComboController.cs" />
@@ -90,36 +76,50 @@
     <Compile Include="Assets\Scripts\CameraOrbitAashish.cs" />
     <Compile Include="Assets\AssetsKT\BallMovement.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\CloseApp.cs" />
     <Compile Include="Assets\Marquise_Byrd\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonControllerAashish.cs" />
     <Compile Include="Assets\Scripts\button_hover_display.cs" />
-    <Compile Include="Assets\poimappopup.cs" />
-    <Compile Include="Assets\CurvedParticleMotion.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonMovementAashish.cs" />
     <Compile Include="Assets\superheroProfile.cs" />
-    <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
-    <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\Scripts\MouseCursorLock.cs" />
-    <Compile Include="Assets\script_player_profile.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\AssetsKT\ComboController.cs" />
-    <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
     <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
-    <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TeleKinesis.cs" />
     <Compile Include="Assets\newanimaterpm.cs" />
     <Compile Include="Assets\onEnable.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\AnimationListener.cs" />
+    <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
+    <Compile Include="Assets\AssetsKT\AimCamera.cs" />
+    <Compile Include="Assets\PlayerController2.cs" />
+    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\hybridThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
+    <Compile Include="Assets\AssetsKT\AnimationController.cs" />
+    <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
+    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Virtual_Cursor\Scripts\gamepad_cursor.cs" />
+    <Compile Include="Assets\Scripts\script_player_info.cs" />
+    <Compile Include="Assets\Scripts\menu_manager.cs" />
+    <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
+    <Compile Include="Assets\Scripts\PlayerInput.cs" />
+    <Compile Include="Assets\CloseApp.cs" />
+    <Compile Include="Assets\poimappopup.cs" />
+    <Compile Include="Assets\CurvedParticleMotion.cs" />
+    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
+    <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
+    <Compile Include="Assets\script_player_profile.cs" />
+    <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
+    <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
+    <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\character_select.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -813,9 +813,21 @@
       <Project>{54BD7B7A-41D8-B25D-6BA7-D4335E08CC96}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{06643947-EE4D-5F06-E334-581E587A1DF8}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{8AF63C9E-B292-47CD-E4AC-50BAC09C6F53}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="glTFast.Editor.csproj">
       <Project>{528DB286-A6A7-D99F-02B7-20E3BCF1058C}</Project>
       <Name>glTFast.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{20873400-0413-2485-D57C-97EEE70AD523}</Project>
+      <Name>PPv2URPConverters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{33ABBE7B-2EE9-4E55-A96A-FD59C5D4C6FC}</Project>
@@ -845,6 +857,14 @@
       <Project>{BA7D3823-340D-1072-7A2D-78C85B53C6C6}</Project>
       <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{9FA2330F-3211-D980-1602-99989D05A807}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{B78078D5-2912-E2AE-040C-DFBBB54B83F7}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{F25E4C58-5B5C-D1F8-0FA5-76BD6050A093}</Project>
       <Name>UnityEditor.UI</Name>
@@ -857,9 +877,9 @@
       <Project>{4092985C-6731-8138-8FFC-6D7DCFA6D82B}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{68BD8388-9B61-0245-EBFB-A039429775A4}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{BAB6A077-681A-4E06-9562-233FCD71CF10}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{92A0BCEA-46E9-0AAF-95D4-00B363BDB52A}</Project>
@@ -869,9 +889,17 @@
       <Project>{A9D4EEF5-07F7-46D8-B091-22E323B1C81D}</Project>
       <Name>WebView</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{68BD8388-9B61-0245-EBFB-A039429775A4}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{983924CC-E9F3-BC21-BCFE-DBC0E8A1C2F7}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{0CFCB0B0-C54B-F1E1-9D9A-2A10D570D9CC}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{4668055F-021E-A2DE-6FA7-C01603B942BE}</Project>
@@ -884,6 +912,10 @@
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
       <Project>{42CD02A5-45C3-9469-CC2C-3674AC5BEF45}</Project>
       <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{451E6DB5-2FF7-0945-7E07-B2E2A38FF5AF}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
       <Project>{064395E6-EBE4-3ACD-4F8C-1B2776551E5E}</Project>
@@ -909,6 +941,10 @@
       <Project>{F28D953F-AA52-D9BF-8BB0-887840A4C173}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{2FB0D9DD-DAED-CC0F-9E63-E93057907680}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarLoader.Editor.csproj">
       <Project>{569915BE-9A15-0481-0271-129BE8C4A2E6}</Project>
       <Name>ReadyPlayerMe.AvatarLoader.Editor</Name>
@@ -925,6 +961,10 @@
       <Project>{FBC52ABC-ACB4-B222-A5B4-4136A2B3FF09}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{0AD9ED31-BECD-1656-0C4F-B78A58AD6138}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.csproj">
       <Project>{92C996FA-5D92-09DE-1C3F-C2E38077864B}</Project>
       <Name>Unity.AI.Navigation</Name>
@@ -937,53 +977,13 @@
       <Project>{DD630CFE-2A51-CEFE-45CF-DB5E08F1A8CE}</Project>
       <Name>glTFast</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
-      <Project>{DBFB6B02-2FA8-ECA9-1678-911FA8D11E9A}</Project>
-      <Name>Unity.SysrootPackage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{06643947-EE4D-5F06-E334-581E587A1DF8}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{B78078D5-2912-E2AE-040C-DFBBB54B83F7}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{9FA2330F-3211-D980-1602-99989D05A807}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{20873400-0413-2485-D57C-97EEE70AD523}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{451E6DB5-2FF7-0945-7E07-B2E2A38FF5AF}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{2FB0D9DD-DAED-CC0F-9E63-E93057907680}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{52DF5D7F-DDA1-7DEB-DC24-62BABEA112F3}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{BAB6A077-681A-4E06-9562-233FCD71CF10}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{0AD9ED31-BECD-1656-0C4F-B78A58AD6138}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{0CFCB0B0-C54B-F1E1-9D9A-2A10D570D9CC}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{8AF63C9E-B292-47CD-E4AC-50BAC09C6F53}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
+      <Project>{DBFB6B02-2FA8-ECA9-1678-911FA8D11E9A}</Project>
+      <Name>Unity.SysrootPackage.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

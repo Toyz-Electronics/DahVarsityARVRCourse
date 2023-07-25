@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Editor\WebViewBuildPostprocessor.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Native\WebViewBase.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Data\ScreenPadding.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\WebMessageHelper.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Editor\WebViewEditor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Native\IOSWebView.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Data\Enums.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Native\AndroidWebView.cs" />
@@ -64,12 +68,8 @@
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Data\UrlConfig.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\WebViewEvents.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\MessagePanel.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Native\WebViewBase.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\WebViewPanel.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Data\WebViewOptions.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\Data\ScreenPadding.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Runtime\WebMessageHelper.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\Editor\WebViewEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.readyplayerme.webview@9cb0d10523\ReadyPlayerMe.WebView.asmdef" />
@@ -280,19 +280,19 @@
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

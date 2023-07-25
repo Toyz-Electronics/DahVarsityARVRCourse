@@ -58,31 +58,17 @@
   <ItemGroup>
     <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
-    <Compile Include="Assets\AssetsKT\AimCamera.cs" />
     <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
-    <Compile Include="Assets\PlayerController2.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\hybridThirdPersonController.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
-    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\AssetsKT\AnimationController.cs" />
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
-    <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\Virtual_Cursor\Scripts\gamepad_cursor.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\hpReverbInputSystem.cs" />
-    <Compile Include="Assets\Scripts\script_player_info.cs" />
     <Compile Include="Assets\Scripts\load_input_scene.cs" />
-    <Compile Include="Assets\Scripts\menu_manager.cs" />
     <Compile Include="Assets\BreakdanceControls.cs" />
-    <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ComboController.cs" />
@@ -90,36 +76,50 @@
     <Compile Include="Assets\Scripts\CameraOrbitAashish.cs" />
     <Compile Include="Assets\AssetsKT\BallMovement.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\CloseApp.cs" />
     <Compile Include="Assets\Marquise_Byrd\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonControllerAashish.cs" />
     <Compile Include="Assets\Scripts\button_hover_display.cs" />
-    <Compile Include="Assets\poimappopup.cs" />
-    <Compile Include="Assets\CurvedParticleMotion.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonMovementAashish.cs" />
     <Compile Include="Assets\superheroProfile.cs" />
-    <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
-    <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\Scripts\MouseCursorLock.cs" />
-    <Compile Include="Assets\script_player_profile.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationIn.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\AssetsKT\ComboController.cs" />
-    <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
     <Compile Include="Assets\AssetsKT\PortalEffect.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
-    <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TeleKinesis.cs" />
     <Compile Include="Assets\newanimaterpm.cs" />
     <Compile Include="Assets\onEnable.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\AnimationListener.cs" />
+    <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
+    <Compile Include="Assets\AssetsKT\AimCamera.cs" />
+    <Compile Include="Assets\PlayerController2.cs" />
+    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\hybridThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
+    <Compile Include="Assets\AssetsKT\AnimationController.cs" />
+    <Compile Include="Assets\AssetsKT\KnifeHolder.cs" />
+    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Virtual_Cursor\Scripts\gamepad_cursor.cs" />
+    <Compile Include="Assets\Scripts\script_player_info.cs" />
+    <Compile Include="Assets\Scripts\menu_manager.cs" />
+    <Compile Include="Assets\AssetsKT\Scenes\RuntimeDebugPanel.cs" />
+    <Compile Include="Assets\Scripts\PlayerInput.cs" />
+    <Compile Include="Assets\CloseApp.cs" />
+    <Compile Include="Assets\poimappopup.cs" />
+    <Compile Include="Assets\CurvedParticleMotion.cs" />
+    <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
+    <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
+    <Compile Include="Assets\script_player_profile.cs" />
+    <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
+    <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
+    <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\character_select.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -741,6 +741,14 @@
       <Project>{AE2D05F6-0864-FE56-EEE8-21D824893836}</Project>
       <Name>glTFast.dots.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
+      <Project>{97DFE387-06DC-212D-7532-B26D90BFF548}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
+      <Project>{812E9803-D2CA-8DCB-7FD4-509D2D610A06}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.Player.csproj">
       <Project>{9BC7B392-F885-053B-9B18-34D6BD56C9B7}</Project>
       <Name>ReadyPlayerMe.Core.Player</Name>
@@ -753,9 +761,17 @@
       <Project>{A594836C-623F-5588-56D7-F8976604653F}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{42B5BF9D-0E3B-C6B8-B846-A017B50555EF}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
       <Project>{BE9D6FCE-9B7F-00F4-626C-96C4F679DF7B}</Project>
       <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{F0BF6735-3E24-73A6-90FD-8A2CFF485C52}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{4B78926B-DF97-AA5E-F895-71337371339E}</Project>
@@ -793,6 +809,14 @@
       <Project>{E188FCDB-10A0-D05A-60CF-268C347675FD}</Project>
       <Name>ReadyPlayerMe.WebView.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
+      <Project>{98C072DE-98BB-E6E3-B760-7BB9F27B4524}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{8BEA50EF-8ECF-E768-165B-F04908A6FBFC}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
       <Project>{C4A26F66-6857-E62B-6ABC-BF7C96C1400A}</Project>
       <Name>Unity.AI.Navigation.Player</Name>
@@ -800,30 +824,6 @@
     <ProjectReference Include="glTFast.Player.csproj">
       <Project>{3FBDED0A-CDEC-1BC4-E8F6-9E9B6AB6E49C}</Project>
       <Name>glTFast.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
-      <Project>{97DFE387-06DC-212D-7532-B26D90BFF548}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{42B5BF9D-0E3B-C6B8-B846-A017B50555EF}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
-      <Project>{98C072DE-98BB-E6E3-B760-7BB9F27B4524}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{F0BF6735-3E24-73A6-90FD-8A2CFF485C52}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{8BEA50EF-8ECF-E768-165B-F04908A6FBFC}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
-      <Project>{812E9803-D2CA-8DCB-7FD4-509D2D610A06}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

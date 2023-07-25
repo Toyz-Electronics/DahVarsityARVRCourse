@@ -58,41 +58,41 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Tests\Common\TestUtils.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarConfigMap.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarUri.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\QueryBuilder.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\AvatarProcessor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\UrlProcessor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\GltFastAvatarImporter.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\GLTFDeferAgent.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\WebRequestDispatcherExtension.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarMetadata.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarContext.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarData.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\AvatarDownloader.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\Enums.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarMorphTarget.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarConfigProcessor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\AvatarObjectLoader.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarLoaderSettings.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarAPIParameters.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarAnimatorHelper.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\AvatarRenderDownloader.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Tests\Common\TestAvatarData.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\RenderSceneHelper.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarBoneHelper.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarRenderSettings.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Interfaces\IImporter.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarConfig.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\RenderParameterProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\AvatarRenderLoader.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\MetadataDownloader.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\AvatarRenderLoader.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Extras\VoiceHandler.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\ExtensionMethods.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\GltFastGameObjectInstantiator.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarCache.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\CustomException.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\CustomEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Extras\EyeAnimationHandler.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarUri.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\QueryBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\AvatarProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\GLTFDeferAgent.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarData.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarConfigProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarLoaderSettings.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarAPIParameters.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Tests\Common\TestAvatarData.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\RenderSceneHelper.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Interfaces\IImporter.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Data\AvatarConfig.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Operations\RenderParameterProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\ExtensionMethods.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\Runtime\Utils\AvatarCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.readyplayerme.avatarloader@cf9120d670\ReadyPlayerMe.AvatarLoader.asmdef" />
@@ -303,19 +303,19 @@
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

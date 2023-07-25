@@ -56,20 +56,20 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\OperationExecutor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Data\ResponseFile.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\AppData.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Data\CoreSettings.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Logger\CustomLogHandler.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Logger\SDKLogger.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Utils\WebRequestDispatcher.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Utils\DirectoryUtility.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\OperationExecutor.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Data\ResponseTexture.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Utils\IResponse.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\RuntimeDebugPanel.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\CommonHeaders.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Data\CoreSettings.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Logger\CustomLogHandler.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Logger\SDKLogger.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\CoreSettingsHandler.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Utils\WebRequestDispatcher.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Data\Response.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Utils\DirectoryUtility.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\Interfaces\IOperation.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Runtime\ApplicationData.cs" />
   </ItemGroup>
@@ -282,19 +282,19 @@
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

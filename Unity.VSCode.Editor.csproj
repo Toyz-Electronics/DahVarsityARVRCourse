@@ -59,8 +59,8 @@
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\VSCodeDiscovery.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\StringUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\GUIDGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\ProjectGeneration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\FileIO.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\Editor\VSCodeScriptEditor.cs" />
@@ -349,22 +349,22 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>

@@ -58,23 +58,23 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\Header.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Module Management\ModuleInfo.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\IEditorWindowComponent.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\Constants.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\Footer.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\EditorWindows\EditorWindowBase.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\EditorWindows\Layout.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Utils\ProjectPrefs.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Module Management\ModuleInstaller.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Module Management\ModuleList.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Utils\EntryPoint.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\AnalyticsEventLogger.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\AnalyticsEditorLogger.cs" />
-    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\SubdomainField.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Utils\EditorUtilities.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Module Management\ModuleUpdater.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\AmplitudeEventLogger.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\IAnalyticsEventLogger.cs" />
     <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\DocumentationButton.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\IEditorWindowComponent.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\Constants.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\Footer.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Utils\ProjectPrefs.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Module Management\ModuleInstaller.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\Analytics\AnalyticsEditorLogger.cs" />
+    <Compile Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\UI\Components\SubdomainField.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.readyplayerme.core@413870952d\Editor\ReadyPlayerMe.Core.Editor.asmdef" />
@@ -360,22 +360,22 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>

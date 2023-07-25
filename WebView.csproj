@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetsKT\Plugins\WebView\Editor\WebViewEditor.cs" />
-    <Compile Include="Assets\AssetsKT\Plugins\WebView\Editor\PartnerPostProcessBuild.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\PartnerSO.cs" />
-    <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewWindow\WebViewWindowBase.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\Data\WebMessage.cs" />
-    <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewOptions.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Editor\WebViewPostProcessBuild.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\Data\UserAgent.cs" />
+    <Compile Include="Assets\AssetsKT\Plugins\WebView\Editor\WebViewEditor.cs" />
+    <Compile Include="Assets\AssetsKT\Plugins\WebView\Editor\PartnerPostProcessBuild.cs" />
+    <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewWindow\WebViewWindowBase.cs" />
+    <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewOptions.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewWindow\IOSWebViewWindow.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebViewWindow\AndroidWebViewWindow.cs" />
     <Compile Include="Assets\AssetsKT\Plugins\WebView\Scripts\WebView.cs" />
@@ -350,22 +350,22 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
