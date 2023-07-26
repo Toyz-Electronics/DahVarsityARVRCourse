@@ -61,9 +61,11 @@
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\AssetsKT\TeleportationOut.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExample.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\hpReverbInputSystem.cs" />
     <Compile Include="Assets\Scripts\load_input_scene.cs" />
@@ -90,10 +92,12 @@
     <Compile Include="Assets\onEnable.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\AnimationListener.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraOrbit.cs" />
     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
     <Compile Include="Assets\PlayerController2.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\hybridThirdPersonController.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\MouseCursorLock.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\AssetsKT\AnimationController.cs" />
@@ -109,17 +113,13 @@
     <Compile Include="Assets\CurvedParticleMotion.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\script_player_profile.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\character_select.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\ThirdPersonLoader.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\PlayerInput.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\GroundCheck.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraOrbit.cs" />
-    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\MouseCursorLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
