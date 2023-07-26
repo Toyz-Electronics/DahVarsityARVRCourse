@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\AssetsKT\CameraInitalizer.cs" />
     <Compile Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
-    <Compile Include="Assets\Marquise_Byrd\MouseCursorLock.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\Marquise_Byrd\Superpowers.cs" />
@@ -69,14 +68,12 @@
     <Compile Include="Assets\hpReverbInputSystem.cs" />
     <Compile Include="Assets\Scripts\load_input_scene.cs" />
     <Compile Include="Assets\BreakdanceControls.cs" />
-    <Compile Include="Assets\Marquise_Byrd\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonLoader.cs" />
     <Compile Include="Assets\Scripts\ComboController.cs" />
     <Compile Include="Assets\HideAvatar2.cs" />
     <Compile Include="Assets\Scripts\CameraOrbitAashish.cs" />
     <Compile Include="Assets\AssetsKT\BallMovement.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\Marquise_Byrd\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonControllerAashish.cs" />
     <Compile Include="Assets\Scripts\button_hover_display.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
@@ -93,7 +90,6 @@
     <Compile Include="Assets\onEnable.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\AnimationListener.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraFollow.cs" />
     <Compile Include="Assets\AssetsKT\AimCamera.cs" />
     <Compile Include="Assets\PlayerController2.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
@@ -115,11 +111,15 @@
     <Compile Include="Assets\AssetsKT\Scenes\RuntimeExampleMultiple.cs" />
     <Compile Include="Assets\AssetsKT\Scripts\TeleporterController.cs" />
     <Compile Include="Assets\script_player_profile.cs" />
-    <Compile Include="Assets\Marquise_Byrd\GroundCheck.cs" />
-    <Compile Include="Assets\Marquise_Byrd\CameraOrbit.cs" />
     <Compile Include="Assets\AssetsKT\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\character_select.cs" />
     <Compile Include="Assets\Marquise_Byrd\ThirdPersonMovement.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\ThirdPersonLoader.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\PlayerInput.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\GroundCheck.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\CameraOrbit.cs" />
+    <Compile Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Scripts\MouseCursorLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -138,10 +138,11 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.1.0\QuickStart\Animations\license.txt" />
     <None Include="Assets\Samples\Universal RP\12.1.8\URP Package Samples\SharedAssets\Shaders\3DText.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.1.0\QuickStart\Animations\license.txt" />
+    <None Include="Assets\Samples\Ready Player Me Avatar Loader\1.3.4\QuickStart\Animations\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

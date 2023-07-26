@@ -5,7 +5,7 @@ namespace ReadyPlayerMe.QuickStart
 {
     public class ThirdPersonLoader : MonoBehaviour
     {
-        public Vector3 avatarPositionOffset = new Vector3(0, -0.08f, 0);
+        private readonly Vector3 avatarPositionOffset = new Vector3(0, -0.08f, 0);
         
         [SerializeField][Tooltip("RPM avatar URL or shortcode to load")] 
         private string avatarUrl;
@@ -62,7 +62,7 @@ namespace ReadyPlayerMe.QuickStart
             avatar.transform.localPosition = avatarPositionOffset;
             avatar.transform.localRotation = Quaternion.Euler(0, 0, 0);
             
-            var controller = GetComponent<ThirdPersonControllerAashish>();
+            var controller = GetComponent<ThirdPersonController>();
             if (controller != null)
             {
                 controller.Setup(avatar, animatorController);
